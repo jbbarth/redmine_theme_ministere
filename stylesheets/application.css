@@ -1,0 +1,20 @@
+@import url(../../../stylesheets/application.css);
+
+
+body, #content, #footer {background-color: #F7F5E9;}
+
+#header {
+	background: #6CA30A url(../images/logo.png) no-repeat 4px 50%;
+	padding-left: 110px;
+}
+
+#top-menu {background: #9CC90E; color: #fff;}
+
+#main-menu { left: 110px;}
+#main-menu li a {font-size: 90%; padding: 4px 5px 4px 5px;}
+#main-menu li a:hover {background:#9CC90E; }
+
+div.flash.notice {background-color: #E3EBC6;}
+.box {background: #E7EECE; border:0;}
+#main {background: #E7EECE;}
+table.list th {  background-color:#E7EECE;}
