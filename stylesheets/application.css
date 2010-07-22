@@ -39,3 +39,7 @@ tr.priority-1, table.list tbody tr.priority-1:hover { color: rgb(100,153,44); fo
 tr.priority-1 a, tr.priority-1:hover a { color: rgb(100,153,44); }
 tr.priority-1 { background: rgb(249,255,239); }
 tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover { color: rgb(249,255,239); background: rgb(100,153,44); }
+
+/* reduce sidebar */
+#sidebar, * html #sidebar { width:14%; min-width:150px; }
+#content, * html #content { width:83%; }
