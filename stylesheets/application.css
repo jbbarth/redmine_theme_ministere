@@ -30,12 +30,12 @@ tr.priority-3 a, tr.priority-3:hover a { color: rgb(255,227,227); }
 tr.priority-3 { background: rgb(204,0,0); }
 tr.priority-3:hover td, tr.priority-3:hover a, tr.priority-3:hover a:hover { color: rgb(204,0,0); background: rgb(255,227,227); }
 
-tr.priority-2, table.list tbody tr.priority-2:hover { color: rgb(179,109,0); font-weight: bold; }
+tr.priority-2, table.list tbody tr.priority-2:hover { color: rgb(179,109,0); font-weight: normal; }
 tr.priority-2 a, tr.priority-2:hover a { color: rgb(179,109,0); }
 tr.priority-2 { background: rgb(250,220,179); }
 tr.priority-2:hover td, tr.priority-2:hover a, tr.priority-2:hover a:hover { color: rgb(250,220,179); background: rgb(179,109,0); }
 
-tr.priority-1, table.list tbody tr.priority-1:hover { color: rgb(100,153,44); font-weight: bold; }
+tr.priority-1, table.list tbody tr.priority-1:hover { color: rgb(100,153,44); }
 tr.priority-1 a, tr.priority-1:hover a { color: rgb(100,153,44); }
 tr.priority-1 { background: rgb(249,255,239); }
 tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover { color: rgb(249,255,239); background: rgb(100,153,44); }
@@ -43,3 +43,15 @@ tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover { col
 /* reduce sidebar */
 #sidebar, * html #sidebar { width:14%; min-width:150px; }
 #content, * html #content { width:83%; }
+
+/* print styles */
+@media print {
+  #top-menu, #header, #main-menu, #sidebar, #footer, .contextual, .other-formats { display:none; }
+  #content { width:98%; margin:0; padding:0; border:0; overflow: visible !important; }
+  table td.checkbox { display:none; }
+  table.issues thead tr th:first-child { display:none; }
+  body, #wrapper, #wrapper2, #main, #content { background: none; background-color: none; }
+  h2, p.pagination { display:none; }
+  div.autoscroll { overflow:visible !important; }
+  tr.group td:first-child span { display:none; }
+}
