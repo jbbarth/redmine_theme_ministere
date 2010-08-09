@@ -40,6 +40,11 @@ tr.priority-1 a, tr.priority-1:hover a { color: rgb(100,153,44); }
 tr.priority-1 { background: rgb(249,255,239); }
 tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover { color: rgb(249,255,239); background: rgb(100,153,44); }
 
+/* progress bars */
+table.progress td.closed { background-color: #0d9f34; }
+tr.issue td.done_ratio { width:80px; }
+tr.issue:hover table.progress td.closed { background-color: #0d9f34; } /* fix needed because of our additions */
+
 /* reduce sidebar */
 #sidebar, * html #sidebar { width:14%; min-width:150px; }
 #content, * html #content { width:83%; }
