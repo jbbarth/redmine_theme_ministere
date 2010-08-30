@@ -56,6 +56,11 @@ h3, h4 { font-weight:normal; }
   color:#222222; font-weight:bold; margin:0 1px; padding-bottom:8px; text-decoration:none;
 }
 
+/* Quick-search box */
+#quick-search { color:#195D00; }
+#quick-search a { display:none; }
+#quick-search input#q { border:1px solid #ccc; background:#fff url(../images/search.png) no-repeat right center; padding-right:18px; }
+
 /* Tabs */
 #content .tabs ul { border-bottom:2px solid #e5e5e5; }
 #content .tabs ul li { margin-right:2px; }
