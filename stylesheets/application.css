@@ -1,61 +1,93 @@
+/* Adapted from Basecamp stylesheet by Peter Theill, Commanigy - http://commanigy.com */
+
 @import url(../../../stylesheets/application.css);
 
+body, #wrapper { background-color:#e5e5e5; font-family:"Lucida Grande", verdana, arial, helvetica, sans-serif; }
 
-body, #content, #footer {background-color: #F7F5E9;}
+a:hover { text-decoration:underline; }
+a:hover, a:active { color:#2A5685; }
 
-#header {
-	background: #6CA30A url(../images/logo.png) no-repeat 4px 50%;
-	padding-left: 110px;
+#header, #top-menu { margin:0; }
+#header { background:#195D00 url(../images/logo.png) no-repeat 10px 50%; padding:8px 8px 0 90px; height:5.5em; }
+#header h1 { margin:0 24px; }
+#header #quick-search { margin:4px; }
+#top-menu { background-color:#195D00; font-size:10px; position:relative; padding:0; height:21px }
+#top-menu ul { padding:0 14px; }
+#top-menu li, #top-menu #loggedas { color:#ddd; line-height:21px; }
+#top-menu li a { color:#ddd; font-weight:normal; padding:2px; }
+#top-menu li a:hover { text-decoration:underline; }
+#main { background-color:#e5e5e5; margin:8px 8px 0px 8px; }
+#content, #main.nosidebar #content {
+  -moz-box-shadow: 3px 3px 4px #bbb; -webkit-box-shadow: 3px 3px 4px #bbb; box-shadow: 3px 3px 4px #bbb;
+  background:#fff; border-right:1px solid #bbb; border-bottom:1px solid #bbb; overflow:auto;
+}
+#footer { background-color:#e5e5e5; border:0px; clear:left; color:#666; font-size:9px; margin:4px 0 20px 20px; padding-bottom:15px; text-align:left; }
+#footer a:hover { background:#666 none repeat scroll 0 0; color:#fff !important;}
+#footer a:link, #footer a:visited { color:#666; }
+
+/* Headers */
+h1, h2, h3, h4 { font-family:"Lucida Grande",arial,sans-serif; }
+h1 { font-size:24px; font-weight:normal; margin:0pt 0pt 0pt 0.25em; padding:0pt 0pt 10px; text-align:left; }
+h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 { border-bottom:0px;}
+
+h2, .wiki h1 { background-color:#edf3fe; margin:-6px -10px 10px; padding:10px 20px; font-size:14px; color:#000; }
+.wiki h1 { font-family:"Trebuchet MS",Verdana,sans-serif; font-weight:bold;}
+.wiki h2 { background-color:#fff; }
+
+h3, h4 { font-weight:normal; }
+
+#sidebar h3 { border-bottom:1px solid #DCDCDC; padding:6px 8px; }
+
+/* Links */
+#sidebar a:hover { background-color:#039; color:#fff; text-decoration:none;}
+
+/* Menu */
+#main-menu { left:110px; padding:0; margin:0; }
+#main-menu li a {
+  color:#d1eeff; background-color:#217a00; font-weight:normal; margin:0 1px; padding-bottom:8px;
+}
+#main-menu li a:hover { color:#fff; background:#054700; text-decoration: none; }
+#main-menu li a.selected, #main-menu li a.selected:hover {
+  /* following lines taken from basecamphq directly. Thanks 37signals!! */
+  background:#e5e5e5;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#e5e5e5'); /* IE */
+  background:-webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#e5e5e5)); /* webkit */
+  background:-moz-linear-gradient(top,  #fdfdfd,  #e5e5e5); /* firefox 3.6+ */
+  color:#222222; font-weight:bold; margin:0 1px; padding-bottom:8px; text-decoration:none;
 }
 
-#top-menu {background: #9CC90E; color: #fff;}
+/* priorities */
+tr.priority-3, table.list tbody tr.priority-3:hover { color:rgb(255,227,227); font-weight:bold; }
+tr.priority-3 a, tr.priority-3:hover a { color:rgb(255,227,227); }
+tr.priority-3 { background:rgb(204,0,0); }
+tr.priority-3:hover td, tr.priority-3:hover a, tr.priority-3:hover a:hover { color:rgb(204,0,0); background:rgb(255,227,227); }
 
-#main-menu { left: 110px;}
-#main-menu li a {font-size: 90%; padding: 4px 5px 4px 5px;}
-#main-menu li a:hover {background:#9CC90E; }
+tr.priority-2, table.list tbody tr.priority-2:hover { color:rgb(179,109,0); font-weight:normal; }
+tr.priority-2 a, tr.priority-2:hover a { color:rgb(179,109,0); }
+tr.priority-2 { background:rgb(250,220,179); }
+tr.priority-2:hover td, tr.priority-2:hover a, tr.priority-2:hover a:hover { color:rgb(250,220,179); background:rgb(179,109,0); }
 
-div.flash.notice {background-color: #E3EBC6;}
-.box {background: #E7EECE; border:0;}
-#main {background: #E7EECE;}
-table.list th {  background-color:#E7EECE;}
-
-/* jbbarth additions */
-/*tr.odd.priority-3, table.list tbody tr.odd.priority-3:hover, tr.even.priority-3, table.list tbody tr.even.priority-3:hover { color: #900; font-weight: bold; }
-tr.odd.priority-3 td, tr.even.priority-3 td { border-color: #ffb4b4; }
-tr.priority-3 a, tr.priority-3:hover a { color: #900; }
-tr.odd.priority-3 { background: #ffc4c4; }
-tr.even.priority-3 { background: #ffd4d4; }*/
-tr.priority-3, table.list tbody tr.priority-3:hover { color: rgb(255,227,227); font-weight: bold; }
-tr.priority-3 a, tr.priority-3:hover a { color: rgb(255,227,227); }
-tr.priority-3 { background: rgb(204,0,0); }
-tr.priority-3:hover td, tr.priority-3:hover a, tr.priority-3:hover a:hover { color: rgb(204,0,0); background: rgb(255,227,227); }
-
-tr.priority-2, table.list tbody tr.priority-2:hover { color: rgb(179,109,0); font-weight: normal; }
-tr.priority-2 a, tr.priority-2:hover a { color: rgb(179,109,0); }
-tr.priority-2 { background: rgb(250,220,179); }
-tr.priority-2:hover td, tr.priority-2:hover a, tr.priority-2:hover a:hover { color: rgb(250,220,179); background: rgb(179,109,0); }
-
-tr.priority-1, table.list tbody tr.priority-1:hover { color: rgb(100,153,44); }
-tr.priority-1 a, tr.priority-1:hover a { color: rgb(100,153,44); }
-tr.priority-1 { background: rgb(249,255,239); }
-tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover { color: rgb(249,255,239); background: rgb(100,153,44); }
+tr.priority-1, table.list tbody tr.priority-1:hover { color:rgb(100,153,44); }
+tr.priority-1 a, tr.priority-1:hover a { color:rgb(100,153,44); }
+tr.priority-1 { background:rgb(249,255,239); }
+tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover { color:rgb(249,255,239); background:rgb(100,153,44); }
 
 /* progress bars */
-table.progress td.closed { background-color: #0d9f34; }
+table.progress td.closed { background-color:#0d9f34; }
 tr.issue td.done_ratio { width:80px; }
-tr.issue:hover table.progress td.closed { background-color: #0d9f34; } /* fix needed because of our additions */
+tr.issue:hover table.progress td.closed { background-color:#0d9f34; } /* fix needed because of our additions */
 
 /* reduce sidebar */
-#sidebar, * html #sidebar { width:14%; min-width:150px; }
-#content, * html #content { width:83%; }
+#sidebar, * html #sidebar { width:16%; min-width:150px; padding:0 4px; }
+#content, * html #content { width:80%; }
 
 /* print styles */
 @media print {
   #top-menu, #header, #main-menu, #sidebar, #footer, .contextual, .other-formats { display:none; }
-  #content { width:98%; margin:0; padding:0; border:0; overflow: visible !important; }
+  #content { width:98%; margin:0; padding:0; border:0; overflow:visible !important; }
   table td.checkbox { display:none; }
   table.issues thead tr th:first-child { display:none; }
-  body, #wrapper, #wrapper2, #main, #content { background: none; background-color: none; }
+  body, #wrapper, #wrapper2, #main, #content { background:none; background-color:none; }
   h2, p.pagination { display:none; }
   div.autoscroll { overflow:visible !important; }
   tr.group td:first-child span { display:none; }
