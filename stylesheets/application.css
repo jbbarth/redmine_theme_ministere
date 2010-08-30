@@ -18,7 +18,7 @@ a:hover, a:active { color:#2A5685; }
 #top-menu li a:hover { text-decoration:underline; }
 #main { background-color:#e5e5e5; margin:8px 8px 0px 8px; }
 #content, #main.nosidebar #content {
-  -moz-box-shadow: 3px 3px 4px #bbb; -webkit-box-shadow: 3px 3px 4px #bbb; box-shadow: 3px 3px 4px #bbb;
+  -moz-box-shadow:3px 3px 4px #bbb; -webkit-box-shadow:3px 3px 4px #bbb; box-shadow:3px 3px 4px #bbb;
   background:#fff; border-right:1px solid #bbb; border-bottom:1px solid #bbb; overflow:auto;
 }
 #footer { background-color:#e5e5e5; border:0px; clear:left; color:#666; font-size:9px; margin:4px 0 20px 20px; padding-bottom:15px; text-align:left; }
@@ -46,7 +46,7 @@ h3, h4 { font-weight:normal; }
 #main-menu li a {
   color:#d1eeff; background-color:#217a00; font-weight:normal; margin:0 1px; padding-bottom:8px;
 }
-#main-menu li a:hover { color:#fff; background:#054700; text-decoration: none; }
+#main-menu li a:hover { color:#fff; background:#054700; text-decoration:none; }
 #main-menu li a.selected, #main-menu li a.selected:hover {
   /* following lines taken from basecamphq directly. Thanks 37signals!! */
   background:#e5e5e5;
@@ -55,6 +55,13 @@ h3, h4 { font-weight:normal; }
   background:-moz-linear-gradient(top,  #fdfdfd,  #e5e5e5); /* firefox 3.6+ */
   color:#222222; font-weight:bold; margin:0 1px; padding-bottom:8px; text-decoration:none;
 }
+
+/* Tabs */
+#content .tabs ul { border-bottom:2px solid #e5e5e5; }
+#content .tabs ul li { margin-right:2px; }
+#content .tabs ul li a { border:0; border-bottom:1px solid #e5e5e5; font-weight:normal; background-color:#f5f5f5; }
+#content .tabs ul li a:hover { color:#222; background-color:#e5e5e5; }
+#content .tabs ul li a.selected { color:#222; border:0; background:#e5e5e5; font-weight:bold; }
 
 /* priorities */
 tr.priority-3, table.list tbody tr.priority-3:hover { color:rgb(255,227,227); font-weight:bold; }
