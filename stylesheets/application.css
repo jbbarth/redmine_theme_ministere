@@ -11,7 +11,7 @@ a:hover, a:active { color:#2A5685; }
 #header { background:#195D00 url(../images/logo.png) no-repeat 10px 50%; padding:8px 8px 0 90px; height:5.5em; }
 #header h1 { margin:0 24px; }
 #header #quick-search { margin:4px; }
-#top-menu { background-color:#195D00; font-size:10px; position:relative; padding:0; height:21px }
+#top-menu { background-color:/*#195D00*/#054700; font-size:10px; position:relative; padding:0; height:21px }
 #top-menu ul { padding:0 8px; }
 #top-menu li, #top-menu #loggedas { color:#ddd; line-height:21px; }
 #top-menu li a { color:#ddd; font-weight:normal; padding:2px 4px; margin:0; }
