@@ -15,7 +15,7 @@ a:hover, a:active { color:#2A5685; }
 #top-menu ul { padding:0 8px; }
 #top-menu li, #top-menu #loggedas { color:#ddd; line-height:21px; }
 #top-menu li a { color:#ddd; font-weight:normal; padding:2px 4px; margin:0; }
-#top-menu li a:hover { text-decoration:underline; }
+#top-menu li a:hover { color:#fff; text-decoration:underline; }
 #main { background-color:#e5e5e5; margin:8px 8px 0px 8px; }
 #content, #main.nosidebar #content {
   -moz-box-shadow:3px 3px 4px #bbb; -webkit-box-shadow:3px 3px 4px #bbb; box-shadow:3px 3px 4px #bbb;
