@@ -69,7 +69,7 @@ h3, h4 { font-weight:normal; }
 #content .tabs ul li { margin-right:2px; }
 #content .tabs ul li a { border:0; border-bottom:1px solid #e5e5e5; font-weight:normal; background-color:#f5f5f5; }
 #content .tabs ul li a:hover { color:#222; background-color:#e5e5e5; }
-#content .tabs ul li a.selected { color:#222; border:0; background:#e5e5e5; font-weight:bold; }
+#content .tabs ul li a.selected, #content .tabs ul li a.selected:hover { color:#222; border:0; background:#e5e5e5; font-weight:bold; }
 
 /* Issues */
 div.issue div.subject h3 { color:#000; font-weight:bold; margin:4px 6px; }
