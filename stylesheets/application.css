@@ -88,6 +88,10 @@ table.issues td.subject:first-letter { text-transform:uppercase; }
 /* Wiki */
 .jstElements { margin:0 0 2px -3px; }
 
+/* Projects */
+ul.projects div.description { color:#666; font-size:80%; font-style:italic; margin-left:18px; }
+ul.projects div.description:first-letter { text-transform:uppercase; }
+
 /* Disable subtasks */
 /* (could be hidden with permissions, but not for admins) */
 div#issue_tree, div#issue_tree + hr { display:none; }
