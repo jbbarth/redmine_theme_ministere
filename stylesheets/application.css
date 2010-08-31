@@ -79,7 +79,8 @@ div.journal div.wiki p:first-letter, div.issue div.wiki p:first-letter { text-tr
 div.journal { margin:5px 0 3px; padding:6px; }
 div.journal.has-notes { background:#ffffdd; border:1px solid #d7d7d7; }
 div.journal:not(.has-notes) + div.journal:not(.has-notes) { border-top:1px solid #e5e5e5; margin-top:0; padding-top:10px; }
-div.journal h4 { margin-top:5px; }
+div.journal h4 { margin-top:5px; font-style:italic; }
+div.journal h4 div { font-style:normal; }
 div.journal .details { margin:3px 12px; }
 div.journal p { margin:5px 0; }
 table.issues td.assigned_to { white-space:nowrap; }
