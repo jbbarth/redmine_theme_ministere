@@ -36,7 +36,10 @@ h2, .wiki h1 { background-color:#edf3fe; margin:-6px -10px 10px; padding:10px 15
 
 h3, h4 { font-weight:normal; }
 
-#sidebar h3 { border-bottom:1px solid #DCDCDC; padding:6px 8px; }
+/* Sidebar */
+#sidebar h3 { display: block; background-color: #edf3fe; border-bottom: 1px solid #dcdcdc; color: #333;
+              font-size: 13px; margin: 10px 0 5px -5px; padding: 6px; font-weight: bold; }
+#sidebar h3:first-child { margin-top:0; }
 
 /* Links */
 #sidebar a:hover { background-color:#039; color:#fff; text-decoration:none;}
