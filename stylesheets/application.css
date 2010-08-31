@@ -80,6 +80,10 @@ div.journal h4 { margin-top:5px; }
 div.journal .details { margin:3px 12px; }
 div.journal p { margin:5px 0; }
 
+/* Disable subtasks */
+/* (could be hidden with permissions, but not for admins) */
+div#issue_tree, div#issue_tree + hr { display:none; }
+
 /* priorities */
 tr.priority-3, table.list tbody tr.priority-3:hover { color:rgb(255,227,227); font-weight:bold; }
 tr.priority-3 a, tr.priority-3:hover a { color:rgb(255,227,227); }
