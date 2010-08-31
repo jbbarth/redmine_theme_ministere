@@ -83,6 +83,9 @@ div.journal h4 { margin-top:5px; }
 div.journal .details { margin:3px 12px; }
 div.journal p { margin:5px 0; }
 
+/* Wiki */
+.jstElements { margin:0 0 2px -3px; }
+
 /* Disable subtasks */
 /* (could be hidden with permissions, but not for admins) */
 div#issue_tree, div#issue_tree + hr { display:none; }
