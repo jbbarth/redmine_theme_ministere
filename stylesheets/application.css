@@ -83,6 +83,7 @@ div.journal h4 { margin-top:5px; }
 div.journal .details { margin:3px 12px; }
 div.journal p { margin:5px 0; }
 table.issues td.assigned_to { white-space:nowrap; }
+table.issues td.subject:first-letter { text-transform:uppercase; }
 
 /* Wiki */
 .jstElements { margin:0 0 2px -3px; }
