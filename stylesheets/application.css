@@ -68,6 +68,18 @@ h3, h4 { font-weight:normal; }
 #content .tabs ul li a:hover { color:#222; background-color:#e5e5e5; }
 #content .tabs ul li a.selected { color:#222; border:0; background:#e5e5e5; font-weight:bold; }
 
+/* Issues */
+div.issue div.subject h3 { color:#000; font-weight:bold; margin:4px 6px; }
+div.issue div.subject h3:first-letter { text-transform:uppercase; }
+div.issue p.author { font-style:italic; margin:3px 0 12px 4px; }
+div.journal div.wiki p:first-letter, div.issue div.wiki p:first-letter { text-transform:uppercase; }
+div.journal { margin:5px 0 3px; padding:6px; }
+div.journal.has-notes { background:#ffffdd; border:1px solid #d7d7d7; }
+div.journal:not(.has-notes) + div.journal:not(.has-notes) { border-top:1px solid #e5e5e5; margin-top:0; padding-top:10px; }
+div.journal h4 { margin-top:5px; }
+div.journal .details { margin:3px 12px; }
+div.journal p { margin:5px 0; }
+
 /* priorities */
 tr.priority-3, table.list tbody tr.priority-3:hover { color:rgb(255,227,227); font-weight:bold; }
 tr.priority-3 a, tr.priority-3:hover a { color:rgb(255,227,227); }
