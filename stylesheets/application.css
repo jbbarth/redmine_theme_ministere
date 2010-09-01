@@ -74,6 +74,8 @@ h3, h4 { font-weight:normal; }
 div.issue div.subject h3 { color:#000; font-weight:bold; margin:4px 6px; }
 div.issue div.subject h3:first-letter { text-transform:uppercase; }
 div.issue p.author { font-style:italic; margin:3px 0 12px 4px; }
+div.journal div.wiki, div.issue div.wiki { color:#222; }
+div.journal div.wiki { margin-left: 6px; }
 div.journal div.wiki p:first-letter, div.issue div.wiki p:first-letter { text-transform:uppercase; }
 div.journal { margin:5px 0 3px; padding:6px; }
 div.journal.has-notes { background:#ffffdd; border:1px solid #d7d7d7; }
@@ -81,7 +83,7 @@ div.journal:not(.has-notes) + div.journal:not(.has-notes) { border-top:1px solid
 div.journal h4 { margin-top:5px; font-style:italic; }
 div.journal h4 div { font-style:normal; }
 h4 img.gravatar { padding:1px; margin: -6px 4px 0 0; }
-div.journal .details { margin:3px 12px; list-style-type:square; }
+div.journal .details { margin:3px 12px 12px; list-style-type:square; }
 div.journal .details strong { font-weight:normal; }
 div.journal p { margin:5px 0; }
 div.journal div.contextual { display:none; margin-top:0; }
