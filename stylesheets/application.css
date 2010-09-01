@@ -25,6 +25,8 @@ a:hover, a:active { color:#2A5685; }
 #footer a:hover { background:#666 none repeat scroll 0 0; color:#fff !important;}
 #footer a:link, #footer a:visited { color:#666; }
 
+div.flash { margin:6px 0 16px; }
+
 /* Headers */
 h1, h2, h3, h4 { font-family:"Lucida Grande",arial,sans-serif; }
 h1 { font-size:24px; font-weight:normal; margin:0pt 0pt 0pt 0.25em; padding:0pt 0pt 10px; text-align:left; }
