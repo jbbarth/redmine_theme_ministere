@@ -84,7 +84,7 @@ div.journal h4 div { font-style:normal; }
 div.journal .details { margin:3px 12px; list-style-type:square; }
 div.journal .details strong { font-weight:normal; }
 div.journal p { margin:5px 0; }
-div.journal div.contextual { display:none; }
+div.journal div.contextual { display:none; margin-top:0; }
 div.journal:hover div.contextual { display:block; }
 table.issues td.assigned_to { white-space:nowrap; }
 table.issues td.subject:first-letter { text-transform:uppercase; }
