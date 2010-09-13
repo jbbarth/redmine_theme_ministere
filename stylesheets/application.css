@@ -121,8 +121,8 @@ tr.issue td.done_ratio { width:80px; }
 tr.issue:hover table.progress td.closed { background-color:#0d9f34; } /* fix needed because of our additions */
 
 /* reduce sidebar */
-#sidebar, * html #sidebar { width:16%; min-width:150px; }
-#content, * html #content { width:80%; }
+#sidebar, * html #sidebar { width:15%; }
+#content, * html #content { width:82%; }
 
 /* print styles */
 @media print {
