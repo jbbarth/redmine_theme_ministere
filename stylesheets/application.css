@@ -100,20 +100,20 @@ ul.projects div.description:first-letter { text-transform:uppercase; }
 div#issue_tree, div#issue_tree + hr { display:none; }
 
 /* priorities */
-tr.priority-3, table.list tbody tr.priority-3:hover { color:rgb(255,227,227); font-weight:bold; }
-tr.priority-3 a, tr.priority-3:hover a { color:rgb(255,227,227); }
-tr.priority-3 { background:rgb(204,0,0); }
-tr.priority-3:hover td, tr.priority-3:hover a, tr.priority-3:hover a:hover { color:rgb(204,0,0); background:rgb(255,227,227); }
+tr.priority-3, table.list tbody tr.priority-3:hover { color:#ffe3e3; font-weight:bold; }
+tr.priority-3 a, tr.priority-3:hover a { color:#ffe3e3; }
+tr.priority-3 { background:#c00; }
+tr.priority-3:hover td, tr.priority-3:hover a, tr.priority-3:hover a:hover { color:#c00; background:#ffe3e3; }
 
-tr.priority-2, table.list tbody tr.priority-2:hover { color:rgb(179,109,0); font-weight:normal; }
-tr.priority-2 a, tr.priority-2:hover a { color:rgb(179,109,0); }
-tr.priority-2 { background:rgb(250,220,179); }
-tr.priority-2:hover td, tr.priority-2:hover a, tr.priority-2:hover a:hover { color:rgb(250,220,179); background:rgb(179,109,0); }
+tr.priority-2, table.list tbody tr.priority-2:hover { color:#b36d00; font-weight:normal; }
+tr.priority-2 a, tr.priority-2:hover a { color:#b36d00; }
+tr.priority-2 { background:#fadcb3; }
+tr.priority-2:hover td, tr.priority-2:hover a, tr.priority-2:hover a:hover { color:#fadcb3; background:#b36d00; }
 
-tr.priority-1, table.list tbody tr.priority-1:hover { color:rgb(100,153,44); }
-tr.priority-1 a, tr.priority-1:hover a { color:rgb(100,153,44); }
-tr.priority-1 { background:rgb(249,255,239); }
-tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover { color:rgb(249,255,239); background:rgb(100,153,44); }
+tr.priority-1, table.list tbody tr.priority-1:hover { color:#64992c; }
+tr.priority-1 a, tr.priority-1:hover a { color:#64992c; }
+tr.priority-1 { background:#f9ffef; }
+tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover { color:#f9ffef; background:#64992c; }
 
 /* progress bars */
 table.progress td.closed { background-color:#0d9f34; }
