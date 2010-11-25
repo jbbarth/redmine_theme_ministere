@@ -104,6 +104,7 @@ tr.priority-3, table.list tbody tr.priority-3:hover { color:#ffe3e3; font-weight
 tr.priority-3 a, tr.priority-3:hover a { color:#ffe3e3; }
 tr.priority-3 { background:#c00; }
 tr.priority-3:hover td, tr.priority-3:hover a, tr.priority-3:hover a:hover { color:#c00; background:#ffe3e3; }
+tr.context-menu-selection:hover > td, tr.context-menu-selection:hover td.todo, tr.context-menu-selection:hover a, tr.context-menu-selection:hover a:hover { background-color:#507aaa; color:#f8f8f8; }
 
 tr.priority-2, table.list tbody tr.priority-2:hover { color:#b36d00; font-weight:normal; }
 tr.priority-2 a, tr.priority-2:hover a { color:#b36d00; }
