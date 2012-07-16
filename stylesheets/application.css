@@ -1,5 +1,9 @@
 /* Adapted from Basecamp stylesheet by Peter Theill, Commanigy - http://commanigy.com */
 
+/* COLOR THEMES: */
+/* green version: top_menu=6CA30A, header=9CC90E, tab_inactive=6CB30B, tab_hover=5CA306 */
+/* red version: top_menu=3B4B56, header=9B0827, tab_inactive=750A15, tab_hover=620010 */
+
 @import url(../../../stylesheets/application.css);
 
 body, #wrapper { background-color:#e9e9e9; font-family:"Lucida Grande", verdana, arial, helvetica, sans-serif; }
@@ -8,13 +12,13 @@ a:hover { text-decoration:underline; }
 a:hover, a:active { color:#2A5685; }
 
 #header, #top-menu { margin:0; }
-#header { background:/*#79B51C*/#9B0827 url(../images/logo.png) no-repeat 10px 50%; padding:8px 8px 0 108px; height:70px; }
+#header { background:/*#79B51C*/#9CC90E url(../images/logo.png) no-repeat 10px 50%; padding:8px 8px 0 108px; height:70px; }
 #header h1 { margin:0; }	
 #header #quick-search { margin:4px; }
-#top-menu { background-color:#3B4B56; font-size:10px; position:relative; padding:0; height:21px }
+#top-menu { background-color:#6CA30A; font-size:10px; position:relative; padding:0; height:21px }
 #top-menu ul { padding:0 8px; }
-#top-menu li, #top-menu #loggedas { color:#ddd; line-height:21px; }
-#top-menu li a { color:#ddd; font-weight:normal; padding:2px 4px; margin:0; }
+#top-menu li, #top-menu #loggedas { color:#fff; line-height:21px; }
+#top-menu li a { color:#fff; font-weight:normal; padding:2px 4px; margin:0; }
 #top-menu li a:hover { color:#fff; text-decoration:underline; }
 #main { background-color:#e9e9e9; margin:8px 8px 0px 8px; }
 #content, #main.nosidebar #content {
@@ -49,13 +53,13 @@ h3, h4 { font-weight:normal; }
                       color:#2A5685; font-weight:bold; border-radius:4px; box-shadow: inset 0 0 1px #bbbbf5; }
 
 /* Modals */
-div.modal { border:2px solid #9B0827; border-radius:3px; }
-div.modal h3.title { background-color:#9B0827; padding:4px 10px; border-top-left-radius:1px; border-top-right-radius:1px; }
+div.modal { border:2px solid #9CC90E; border-radius:3px; }
+div.modal h3.title { background-color:#9CC90E; padding:4px 10px; border-top-left-radius:1px; border-top-right-radius:1px; }
 
 /* Menu */
 #main-menu { left:108px; padding:0; margin:0; }
-#main-menu li a { color:#f0f0f0; background-color:#750A15; font-weight:normal; margin:0 1px; padding-bottom:8px; }
-#main-menu li a:hover { color:#fff; background:#620010; text-decoration:none; }
+#main-menu li a { color:#f0f0f0; background-color:#6CB30B; font-weight:normal; margin:0 1px; padding-bottom:8px; }
+#main-menu li a:hover { color:#fff; background:#5CA306; text-decoration:none; }
 #main-menu li a.selected, #main-menu li a.selected:hover {
   /* following lines taken from basecamphq directly. Thanks 37signals!! */
   background:#e9e9e9;
@@ -66,7 +70,7 @@ div.modal h3.title { background-color:#9B0827; padding:4px 10px; border-top-left
 }
 
 /* Quick-search box */
-#quick-search { color:#9B0827; }
+#quick-search { color:#9CC90E; }
 #quick-search a { display:none; }
 #quick-search input#q { border:1px solid #aaa; background:#fff url(../images/search.png) no-repeat right center; padding:2px 18px 2px 2px; }
 
