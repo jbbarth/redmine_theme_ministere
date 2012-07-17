@@ -136,9 +136,10 @@ tr.priority-1 { background:#f9ffef; }
 tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover { color:#f9ffef; background:#64992c; }
 
 /* progress bars */
-table.progress td.closed { background-color:#0d9f34; }
+table.progress td { height:10px; }
+table.progress td.closed { background-color:#9CC90E; }
 tr.issue td.done_ratio { width:80px; }
-tr.issue:hover table.progress td.closed { background-color:#0d9f34; } /* fix needed because of our additions */
+tr.issue:hover table.progress td.closed { background-color:#9CC90E; } /* fix needed because of our additions */
 
 /* reduce sidebar */
 #sidebar, * html #sidebar { width:15%; }
