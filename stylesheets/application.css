@@ -88,6 +88,7 @@ div.modal h3.title { background-color:#9CC90E; padding:4px 10px; border-top-left
 /* Issues */
 div.issue div.subject h3 { color:#000; font-weight:bold; margin:4px 6px; }
 div.issue p.author { font-style:italic; margin:3px 0 12px 4px; }
+div.issue.details hr+div > .contextual { margin-top:0; }
 div.journal div.wiki, div.issue div.wiki { color:#222; }
 div.journal div.wiki { margin-left: 6px; }
 div.journal { margin:5px 0 3px; padding:6px; }
