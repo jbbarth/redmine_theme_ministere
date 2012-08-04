@@ -100,6 +100,7 @@ h4 img.gravatar { padding:1px; margin: -6px 4px 0 0; }
 div.journal .details { margin:3px 12px 12px; list-style-type:square; }
 div.journal .details strong { font-weight:normal; }
 div.journal p { margin:5px 0; }
+div.journal div.contextual { margin-top:0; }
 table.issues td.assigned_to { white-space:nowrap; }
 table.issues td.checkbox input { margin: 4px 3px -2px 4px; }
 table.issues tr > td { padding:3px 2px 1px; }
