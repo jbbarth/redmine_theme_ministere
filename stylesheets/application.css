@@ -71,7 +71,7 @@ div.modal h3.title { background-color:#9CC90E; padding:4px 10px; border-top-left
 
 /* Quick-search box */
 #quick-search { color:#9CC90E; }
-#quick-search a { display:none; }
+#quick-search label { display:none; }
 #quick-search input#q { border:1px solid #888; padding:2px 20px 2px 2px; border-radius:3px; box-sizing:border-box;
                         background:#fff url(../images/search.png) no-repeat right center; }
 
