@@ -100,8 +100,9 @@ div.issue img.gravatar { padding:2px; width:36px; height:36px; margin-top:4px; }
 h4 img.gravatar, div.issue table img.gravatar { padding:1px; }
 div.issue table img.gravatar { margin-top:-1px; }
 h4 img.gravatar { margin: -6px 4px 0 0; }
-div.journal .details { margin:3px 12px 12px; list-style-type:square; }
+div.journal .details { margin:0 12px 10px; list-style-type:square; color:#777; }
 div.journal .details strong { font-weight:normal; }
+div.journal .details:hover { color:#222; }
 div.journal p { margin:5px 0; }
 div.journal div.contextual { margin-top:0; }
 table.issues td.assigned_to { white-space:nowrap; }
