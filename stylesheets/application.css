@@ -96,6 +96,8 @@ div.journal.has-notes { background:#ffffdd; border:1px solid #d7d7d7; }
 div.journal:not(.has-notes) + div.journal:not(.has-notes) { border-top:1px solid #e9e9e9; margin-top:0; padding-top:10px; }
 div.journal h4 { margin-top:5px; font-style:italic; }
 div.journal h4 div { font-style:normal; }
+div.issue table.attributes>tbody>tr>th { min-width:100px; }
+div.issue table.attributes>tbody>tr>td { min-width:200px; }
 div.issue img.gravatar { padding:2px; width:36px; height:36px; margin-top:4px; }
 h4 img.gravatar, div.issue table img.gravatar { padding:1px; }
 div.issue table img.gravatar { margin-top:-1px; }
