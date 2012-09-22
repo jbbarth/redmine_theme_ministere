@@ -146,6 +146,11 @@ tr.priority-2 a, tr.priority-2:hover a { color:#64992c; }
 tr.priority-2 { background:#f9ffef; }
 tr.priority-2:hover td, tr.priority-2:hover a, tr.priority-2:hover a:hover, tr.priority-2:hover span.status, tr.priority-2:hover p.extra-fields { color:#f9ffef; background:#64992c; }
 
+tr.priority-1, table.list tbody tr.priority-1:hover { color:#888; }
+tr.priority-1 a, tr.priority-1:hover a { color:#888; }
+tr.priority-1 { background:#eee; }
+tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover, tr.priority-1:hover span.status, tr.priority-1:hover p.extra-fields { color:#eee; background:#aaa; }
+
 /* progress bars */
 table.progress td { height:10px; }
 table.progress td.closed { background-color:#9CC90E; }
