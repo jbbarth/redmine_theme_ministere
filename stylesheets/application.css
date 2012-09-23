@@ -149,7 +149,7 @@ tr.priority-2:hover td, tr.priority-2:hover a, tr.priority-2:hover a:hover, tr.p
 tr.priority-1, table.list tbody tr.priority-1:hover { color:#888; }
 tr.priority-1 a, tr.priority-1:hover a { color:#888; }
 tr.priority-1 { background:#eee; }
-tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover, tr.priority-1:hover span.status, tr.priority-1:hover p.extra-fields { color:#eee; background:#aaa; }
+tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover, tr.priority-1:hover span.status, tr.priority-1:hover p.extra-fields { color:#eee; background:#bbb; }
 
 /* progress bars */
 table.progress td { height:10px; }
