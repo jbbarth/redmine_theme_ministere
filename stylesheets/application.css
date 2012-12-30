@@ -49,11 +49,11 @@ h2, .wiki h1 { background-color:#edf3fe; margin:-6px -10px 10px; padding:10px 15
 h3, h4 { font-weight:normal; }
 
 /* Sidebar */
-#sidebar h3 { display: block; background-color: #edf3fe; border-bottom: 1px solid #dcdcdc; color: #333;
-              font-size: 13px; margin: 10px 0 5px -5px; padding: 6px; font-weight: bold; text-shadow:1px 1px 2px #fff; }
+#sidebar h3 { display: block; background-color: #edf3fe; border-bottom: 1px solid #ccc; color: #444;
+              font-size: 13px; margin: 10px 0 5px -6px; padding:4px 6px; font-weight: bold; text-shadow:1px 1px 2px #fff; }
 #sidebar > h3:first-child, #sidebar > div:first-child+h3 { margin-top:0; }
-#sidebar h4 { margin:4px 0 2px 0; font-weight:bold; color:#666; text-shadow:1px 1px 2px #fff; }
-#sidebar .subsection { padding-left:8px; }
+#sidebar h4 { margin:4px 0 2px 0; font-size:12px; font-weight:bold; color:#555; text-shadow:1px 1px 2px #fff; }
+#sidebar .subsection { padding-left:10px; }
 #admin-menu a.selected { background-color:#dddde3; background-position:8px center; display:block; padding:3px 30px 2px !important; margin-left:-8px; margin-right:20px; color:#2A5685; font-weight:bold; border-radius:4px; box-shadow: inset 0 0 1px #bbbbf5; }
 
 /* Modals */
