@@ -50,7 +50,7 @@ h3, h4 { font-weight:normal; }
 
 /* Sidebar */
 #sidebar h3 { display: block; background-color: #edf3fe; border-bottom: 1px solid #ccc; color: #444;
-              font-size: 13px; margin: 10px 0 5px -6px; padding:4px 6px; font-weight: bold; text-shadow:1px 1px 2px #fff; }
+              font-size: 13px; margin: 10px 0 5px -8px; padding:4px 8px; font-weight: bold; text-shadow:1px 1px 2px #fff; }
 #sidebar > h3:first-child, #sidebar > div:first-child+h3 { margin-top:0; }
 #sidebar h4 { margin:4px 0 2px 0; font-size:12px; font-weight:bold; color:#555; text-shadow:1px 1px 2px #fff; }
 #sidebar .subsection { padding-left:10px; }
@@ -175,7 +175,7 @@ tr.issue td.done_ratio { width:80px; }
 tr.issue:hover table.progress td.closed { background-color:#9CC90E; } /* fix needed because of our additions */
 
 /* reduce sidebar */
-#sidebar, * html #sidebar { -moz-box-sizing:border-box; box-sizing:border-box; width:15%; padding-left:15px; }
+#sidebar, * html #sidebar { -moz-box-sizing:border-box; box-sizing:border-box; width:15%; padding-left:20px; }
 #content, * html #content { -moz-box-sizing:border-box; box-sizing:border-box; width:85%; }
 
 /* print styles */
