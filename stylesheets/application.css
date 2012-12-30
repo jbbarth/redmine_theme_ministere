@@ -98,7 +98,7 @@ table.list th { background-color:#f8f9fa; border-bottom:1px solid #ebebee; font-
 table.list tbody tr:hover { background-color:#edf3fe; }
 .odd, .odd+.even-odd-linked { background-color:#fff; }
 .even, .even+.even-odd-linked { background-color:#f8f9fa; }
-table.list th .filter { margin:3px 0 2px; width:100%; max-width:240px; box-sizing:border-box; border-radius:2px; border:1px solid #ccc; height:19px; }
+table.list th .filter { margin:3px 0 2px; padding:1px 3px; width:100%; max-width:240px; box-sizing:border-box; border-radius:2px; border:1px solid #ccc; height:19px; color:#555; }
 table.list th .filter:focus { outline:none; }
 
 /* Forms */
