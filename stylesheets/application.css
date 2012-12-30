@@ -132,7 +132,7 @@ table.issues td.assigned_to { white-space:nowrap; }
 table.issues td.checkbox input { margin:3px 3px 4px 4px; }
 table.issues tr > td { padding:3px 2px 1px; }
 table.issues tr > td > table { margin-bottom:1px; }
-tr.issue td.project { max-width:200px !important; white-space:normal; }
+tr.issue td.project { max-width:200px; white-space:nowrap; }
 tr.issue td.subject { min-width:300px !important; }
 #attachments_fields input.description { display:none; }
 
