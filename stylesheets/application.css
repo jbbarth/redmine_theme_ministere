@@ -175,8 +175,8 @@ tr.issue td.done_ratio { width:80px; }
 tr.issue:hover table.progress td.closed { background-color:#9CC90E; } /* fix needed because of our additions */
 
 /* reduce sidebar */
-#sidebar, * html #sidebar { box-sizing:border-box; width:15%; padding-left:15px; }
-#content, * html #content { box-sizing:border-box; width:85%; }
+#sidebar, * html #sidebar { -moz-box-sizing:border-box; box-sizing:border-box; width:15%; padding-left:15px; }
+#content, * html #content { -moz-box-sizing:border-box; box-sizing:border-box; width:85%; }
 
 /* print styles */
 @media print {
