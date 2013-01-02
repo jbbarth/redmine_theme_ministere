@@ -95,10 +95,10 @@ div.modal h3.title { background-color:#9CC90E; padding:4px 10px; border-top-left
 /* Tables */
 table.list { border:none; }
 table.list td, table.list th { padding:6px 5px; }
-table.list th { vertical-align:top; background-color:#f8f9fa; border-bottom:1px solid #ebebee; font-weight:normal; }
+table.list th { vertical-align:top; background-color:#f2f2f4; border-bottom:1px solid #e9e9eb; font-weight:normal; }
 table.list tbody tr:hover { background-color:#edf3fe; }
 .odd, .odd+.even-odd-linked { background-color:#fff; }
-.even, .even+.even-odd-linked { background-color:#f8f9fa; }
+.even, .even+.even-odd-linked { background-color:#f2f2f4; }
 table.list th .filter { margin:3px 0 2px; padding:1px 3px; width:100%; max-width:240px; box-sizing:border-box; border-radius:2px; border:1px solid #ccc; height:19px; color:#555; }
 table.list th .filter:focus { outline:none; }
 
