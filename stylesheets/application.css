@@ -64,7 +64,7 @@ div.wiki ul.toc a { color:#666; }
 #wiki_add_attachment p { margin:6px; }
 /* taken from docrails (+images) */
 .wiki p.code, .wiki p.warning, .wiki p.note, .wiki p.info, .wiki p.todo {
-  border: none; padding:1.25em 1.25em 1.25em 48px; margin-left: 0; margin-top: 0.25em;
+  border: none; padding:1.25em 1.25em 1.25em 48px; margin-left:20px; margin-top: 0.25em;
   color:#333; text-align:left; display:block; font-size:12px; max-width:800px; /* added by me */
 }
 .wiki p.code { background: #eee url(../images/tab_grey.gif) no-repeat left top; }
