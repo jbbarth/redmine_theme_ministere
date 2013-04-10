@@ -59,6 +59,7 @@ div.wiki ul.toc a { color:#666; }
 /* Wiki pages specific */
 .wiki-page h2 { margin:5px 0 10px; padding:4px 0; border-bottom:1px solid #ddd; }
 .wiki-page h3 { font-size:14px; font-weight:bold; }
+.wiki-page ul, .wiki-page ol { padding-left:30px; }
 #wiki_add_attachment { margin:20px 0 0; padding:0; border-top:1px solid #ddd; }
 #wiki_add_attachment p { margin:6px; }
 
