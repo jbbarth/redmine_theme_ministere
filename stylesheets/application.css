@@ -65,7 +65,7 @@ div.wiki ul.toc a { color:#666; }
 /* taken from docrails (+images) */
 .wiki-page p.code, .wiki-page p.warning, .wiki-page p.note, .wiki-page p.info, .wiki-page p.todo {
   border: none; padding:1.25em 1.25em 1.25em 48px; margin-left: 0; margin-top: 0.25em;
-  color:#333; text-align:left; display:block; font-size:12px; /* added by me */
+  color:#333; text-align:left; display:block; font-size:12px; max-width:800px; /* added by me */
 }
 .wiki-page p.code { background: #eee url(../images/tab_grey.gif) no-repeat left top; }
 .wiki-page p.warning { background: #f9d9d8 url(../images/tab_red.gif) no-repeat left top; }
