@@ -63,15 +63,15 @@ div.wiki ul.toc a { color:#666; }
 #wiki_add_attachment { margin:20px 0 0; padding:0; border-top:1px solid #ddd; }
 #wiki_add_attachment p { margin:6px; }
 /* taken from docrails (+images) */
-.wiki-page p.code, .wiki-page p.warning, .wiki-page p.note, .wiki-page p.info, .wiki-page p.todo {
+.wiki p.code, .wiki p.warning, .wiki p.note, .wiki p.info, .wiki p.todo {
   border: none; padding:1.25em 1.25em 1.25em 48px; margin-left: 0; margin-top: 0.25em;
   color:#333; text-align:left; display:block; font-size:12px; max-width:800px; /* added by me */
 }
-.wiki-page p.code { background: #eee url(../images/tab_grey.gif) no-repeat left top; }
-.wiki-page p.warning { background: #f9d9d8 url(../images/tab_red.gif) no-repeat left top; }
-.wiki-page p.note { background: #fff9d8 url(../images/tab_note.gif) no-repeat left top; }
-.wiki-page p.info { background: #d5e9f6 url(../images/tab_info.gif) no-repeat left top; }
-.wiki-page p.todo { background: #fff9d8 url(../images/tab_yellow.gif) no-repeat left top; }
+.wiki p.code { background: #eee url(../images/tab_grey.gif) no-repeat left top; }
+.wiki p.warning { background: #f9d9d8 url(../images/tab_red.gif) no-repeat left top; }
+.wiki p.note { background: #fff9d8 url(../images/tab_note.gif) no-repeat left top; }
+.wiki p.info { background: #d5e9f6 url(../images/tab_info.gif) no-repeat left top; }
+.wiki p.todo { background: #fff9d8 url(../images/tab_yellow.gif) no-repeat left top; }
 
 /* Code / Preformatted */
 p > code { background-color:#fafafa; padding:0 2px; border:1px solid #e2e2e2; }
