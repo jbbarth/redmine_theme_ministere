@@ -229,7 +229,7 @@ tr.issue:hover table.progress td.closed { background-color:#9CC90E; } /* fix nee
   table td.checkbox { display:none; }
   table.issues thead tr th:first-child { display:none; }
   body, #wrapper, #wrapper2, #main, #content { background:none; background-color:none; }
-  h2, p.pagination { display:none; }
+  p.pagination { display:none; }
   div.autoscroll { overflow:visible !important; }
   tr.group td:first-child span { display:none; }
 }
