@@ -74,7 +74,7 @@ div.wiki ul.toc a { color:#666; }
 .wiki p.todo { background: #fff9d8 url(../images/tab_yellow.gif) no-repeat left top; }
 
 /* Code / Preformatted */
-p > code { background-color:#fafafa; padding:0 2px; border:1px solid #e2e2e2; }
+p > code { color:#222; background-color:#eee; padding:1px 2px; margin:0 2px; border:1px solid #ccc; }
 
 /* Repo */
 .revision-graph { margin-top:4px; }
