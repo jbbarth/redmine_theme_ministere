@@ -39,7 +39,7 @@ ul, ol { line-height:1.4em; margin-top:0.4em; margin-bottom:1em; } /*TODO: see i
 #header h1 { margin:0; }
 #header h1, #header h1 a { color:#fff; text-shadow:1px 1px 2px #bbb; }
 #header #quick-search { margin:4px; }
-#top-menu { background-color:#6CA30A; font-size:11px; font-weight:300; letter-spacing:0.05em; position:relative; padding:0; height:21px }
+#top-menu { background-color:#6CA30A; font-size:11px; font-weight:300; position:relative; padding:0; height:21px }
 #top-menu ul { padding:0 8px; }
 #top-menu li, #top-menu #loggedas { color:#fff; line-height:21px; }
 #top-menu li a { color:#fff; font-weight:300; padding:2px 4px; margin:0; }
