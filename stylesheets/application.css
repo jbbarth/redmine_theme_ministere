@@ -34,7 +34,7 @@ ul, ol { line-height:1.4em; margin-top:0.4em; margin-bottom:1em; } /*TODO: see i
 div.flash { margin:6px 0 16px; }
 
 /* Utilities */
-.left { text-align:left; }
+.left, table.list td.left { text-align:left; }
 
 /* Boxes */
 div.box ul { padding-left:2em; }
