@@ -187,11 +187,6 @@ tr.changeset td.checkbox:nth-child(even) { padding-left:8px; }
 tr.changeset td.checkbox:nth-child(odd) { padding-right:8px; }
 tr.changeset td.committed_on, tr.changeset td.author { width:auto; padding:6px 8px; }
 
-/* Disable subtasks */
-/* (could be hidden with permissions, but not for admins) */
-div#issue_tree, div#issue_tree + hr { display:none; }
-p#parent_issue { display:none; }
-
 /* context menu selection */
 /*tr.context-menu-selection:hover > td, tr.context-menu-selection:hover td.todo, tr.context-menu-selection:hover a, tr.context-menu-selection:hover a:hover { background-color:#507aaa; color:#f8f8f8; }*/
 
