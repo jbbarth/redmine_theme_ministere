@@ -232,3 +232,55 @@ tr.issue:hover table.progress td.closed { background-color:#9CC90E; } /* fix nee
   div.autoscroll { overflow:visible !important; }
   tr.group td:first-child span { display:none; }
 }
+
+#header #quick-search .select2-container {
+  width: 300px;
+  min-width: 220px;
+}
+
+/* Responsive CSS */
+@media all and (max-width: 899px)
+{
+  #header{
+    background-color: #9CC90E;
+  }
+
+  /* styles for combobox within quick-search (#project_quick_jump_box) */
+  #header #quick-search .select2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.2;
+
+    position: absolute;
+    top: 15px;
+    left: 0;
+
+    float: left;
+
+    width: 100%;
+    max-width: 100%;
+    height: 2em;
+    height: 35px;
+    padding: 5px;
+    padding-right: 72px;
+    padding-left: 110px;
+
+    text-indent: .01px;
+
+    color: inherit;
+    border: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /* hide default browser arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  #header #quick-search .select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: 72px;
+    top: 6px;
+  }
+}
