@@ -242,7 +242,7 @@ tr.issue:hover table.progress td.closed { background-color:#9CC90E; } /* fix nee
 @media all and (max-width: 899px)
 {
   #header{
-    background-color: #9CC90E;
+    background-color: #9CC90E !important; /* Force header background color */
   }
 
   /* styles for combobox within quick-search (#project_quick_jump_box) */
