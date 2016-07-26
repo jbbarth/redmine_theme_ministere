@@ -17,6 +17,7 @@ ul, ol { line-height:1.4em; margin-top:0.4em; margin-bottom:1em; } /*TODO: see i
 #header h1 { margin:0; }
 #header h1, #header h1 a { color:#fff; text-shadow:1px 1px 2px #bbb; }
 #header #quick-search { margin:4px; }
+#header h1 .breadcrumbs {  margin-top: -2px;  }
 #top-menu { background-color:#6CA30A; font-size:10px; position:relative; padding:0; height:21px }
 #top-menu ul { padding:0 8px; }
 #top-menu li, #top-menu #loggedas { color:#fff; line-height:21px; }
@@ -41,7 +42,7 @@ div.box ul { padding-left:2em; }
 
 /* Headers */
 h1, h2, h3, h4 { font-family:"Lucida Grande",arial,sans-serif; }
-h1 { font-size:24px; font-weight:normal; margin:0pt 0pt 0pt 0.25em; padding:0pt 0pt 10px; text-align:left; }
+h1 { font-size:23px; font-weight:normal; margin:0pt 0pt 0pt 0.25em; padding:0pt 0pt 10px; text-align:left; }
 h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 { border-bottom:0px;}
 
 h2, .wiki h1 { background-color:#edf3fe; margin:-6px -10px 10px; padding:10px 15px; font-size:14px; color:#000; }
