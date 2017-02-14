@@ -88,6 +88,7 @@ p > code, li > code { color:#222; background-color:#fafafa; padding:1px 2px; bor
 #sidebar h4 { margin:4px 0 2px 0; font-size:12px; font-weight:bold; color:#555; text-shadow:1px 1px 2px #fff; }
 #sidebar p { margin:3px 2px; }
 #sidebar .subsection { padding-left:10px; }
+#admin-menu a {display:inline-block;}
 #admin-menu a.selected { background-color:#5a6695; background-position:6px center; display:inline-block; padding:2px 7px 2px 26px !important; margin-left:-8px; margin-right:20px; color:#fff; border-radius:4px; box-shadow: inset 0 0 1px #bbbbf5; line-height:19px; }
 #sidebar a.selected { background-color:#5a6695; padding:1px 6px 2px 5px; margin-left:-5px; color:#fff; border-radius:4px; box-shadow: inset 0 0 1px #bbbbf5; }
 
