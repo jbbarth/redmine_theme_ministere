@@ -203,22 +203,26 @@ tr.changeset td.committed_on, tr.changeset td.author { width:auto; padding:6px 8
 /* priorities */
 tr.priority-4, table.list tbody tr.priority-3:hover { color:#c00; }
 tr.priority-4 a, tr.priority-3:hover a { color:#c00; }
-tr.priority-4 { background:#ffe3e3; }
+tr.priority-4, table.list:not(.odd-even) tbody tr:nth-child(odd).priority-4,
+table.list:not(.odd-even) tbody tr:nth-child(even).priority-4 { background:#ffe3e3; }
 tr.priority-4:hover td, tr.priority-4:hover a, tr.priority-4:hover a:hover, tr.priority-4:hover span.status, tr.priority-4:hover p.extra-fields, td.priority-4 { color:#ffe3e3; background:#c00; }
 
 tr.priority-3, table.list tbody tr.priority-3:hover { color:#b36d00; font-weight:normal; }
 tr.priority-3 a, tr.priority-2:hover a { color:#b36d00; }
-tr.priority-3 { background:#fadcb3; }
+tr.priority-3, table.list:not(.odd-even) tbody tr:nth-child(odd).priority-3,
+table.list:not(.odd-even) tbody tr:nth-child(even).priority-3 { background:#fadcb3; }
 tr.priority-3:hover td, tr.priority-3:hover a, tr.priority-3:hover a:hover, tr.priority-3:hover span.status, tr.priority-3:hover p.extra-fields, td.priority-3 { color:#fadcb3; background:#b36d00; }
 
 tr.priority-2, table.list tbody tr.priority-2:hover { color:#64992c; }
 tr.priority-2 a, tr.priority-2:hover a { color:#64992c; }
-tr.priority-2 { background:#f9ffef; }
+tr.priority-2, table.list:not(.odd-even) tbody tr:nth-child(odd).priority-2,
+table.list:not(.odd-even) tbody tr:nth-child(even).priority-2 { background:#f9ffef; }
 tr.priority-2:hover td, tr.priority-2:hover a, tr.priority-2:hover a:hover, tr.priority-2:hover span.status, tr.priority-2:hover p.extra-fields, td.priority-2 { color:#f9ffef; background:#64992c; }
 
 tr.priority-1, table.list tbody tr.priority-1:hover { color:#888; }
 tr.priority-1 a, tr.priority-1:hover a { color:#888; }
-tr.priority-1 { background:#eee; }
+tr.priority-1, table.list:not(.odd-even) tbody tr:nth-child(odd).priority-1,
+table.list:not(.odd-even) tbody tr:nth-child(even).priority-1 { background:#eee; }
 tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover, tr.priority-1:hover span.status, tr.priority-1:hover p.extra-fields, td.priority-1 { color:#eee; background:#bbb; }
 
 /* progress bars */
