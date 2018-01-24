@@ -252,6 +252,21 @@ tr.issue:hover table.progress td.closed { background-color:#9CC90E; } /* fix nee
   min-width: 220px;
 }
 
+/* jQuery UI */
+
+.theme-Ministere .ui-widget-content {
+  color: #333;
+}
+.theme-Ministere .ui-widget {
+  font-family: Verdana,sans-serif;
+  font-size: 1.1em;
+}
+
+.theme-Ministere .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+  font-family: Verdana,sans-serif;
+  font-size: 1em;
+}
+
 /* Responsive CSS */
 @media all and (max-width: 899px)
 {
