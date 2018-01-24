@@ -100,7 +100,7 @@ div.modal h3.title { background-color:#9CC90E; padding:4px 10px; border-top-left
 .ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { -moz-border-radius-bottomleft: 0; -webkit-border-bottom-left-radius: 0; -khtml-border-bottom-left-radius: 0; border-bottom-left-radius: 0; }
 .ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { -moz-border-radius-topright: 0; -webkit-border-top-right-radius: 0; -khtml-border-top-right-radius: 0; border-top-right-radius: 0; }
 .ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { -moz-border-radius-topleft: 0; -webkit-border-top-left-radius: 0; -khtml-border-top-left-radius: 0; border-top-left-radius: 0; }
-.ui-widget-header { border: 1px solid #9CC90E; background: #9CC90E; color: white; }
+.ui-widget-header, div.ui-widget-header { border: 1px solid #9CC90E; background: #9CC90E; color: white; }
 
 /* Menu */
 #main-menu { left:108px; padding:0; margin:0; }
@@ -255,14 +255,18 @@ tr.issue:hover table.progress td.closed { background-color:#9CC90E; } /* fix nee
 /* Responsive CSS */
 @media all and (max-width: 899px)
 {
-  #header{
-    background-color: #9CC90E !important; /* Force header background color */
+  .theme-Ministere #header{
+    background-color: #9CC90E; /* Force header background color */
+    position: relative;
   }
 
-  #main { margin:auto; }
+  .theme-Ministere #main {
+    margin:auto;
+    padding: 0;
+  }
 
   /* styles for combobox within quick-search (#project_quick_jump_box) */
-  #header #quick-search .select2 {
+  .theme-Ministere #header #quick-search .select2 {
     font-size: 1.5em;
     font-weight: bold;
     line-height: 1.2;
@@ -295,7 +299,7 @@ tr.issue:hover table.progress td.closed { background-color:#9CC90E; } /* fix nee
     -moz-appearance: none;
   }
 
-  #header #quick-search .select2-container--default .select2-selection--single .select2-selection__arrow {
+  .theme-Ministere #header #quick-search .select2-container--default .select2-selection--single .select2-selection__arrow {
     right: 72px;
     top: 6px;
   }
