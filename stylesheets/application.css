@@ -138,6 +138,8 @@ div.modal h3.title { background-color:#9CC90E; padding:4px 10px; border-top-left
 fieldset legend { font-weight:bold; }
 .permissions_tab fieldset + fieldset { margin-top:10px; }
 .permissions_tab fieldset legend { font-size:110%; }
+#content .jstTabs.tabs {margin-bottom: 3px !important;}
+#content .jstTabs.tabs li {height: auto !important;}
 
 /* Tables */
 table.list { border:none; }
