@@ -322,4 +322,6 @@ tr.issue:hover table.progress td.closed { background-color:#9CC90E; } /* fix nee
     right: 72px;
     top: 6px;
   }
+
+  #header { background-image: none;}
 }
