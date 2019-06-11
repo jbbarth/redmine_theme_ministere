@@ -75,7 +75,11 @@ div.wiki ul.toc a { color:#666; }
 .wiki p.info, .wiki p.wiki-class-info { background: #d5e9f6 url(../images/tab_info.gif) no-repeat left top; }
 .wiki p.todo, .wiki p.wiki-class-todo { background: #fff9d8 url(../images/tab_yellow.gif) no-repeat left top; }
 
-.wiki .badge, .wiki .wiki-class-badge {display: inline-block;min-width: 10px;padding: 3px 7px;font-size: 12px;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: middle;background-color: #777;border-radius: 10px;}
+.wiki .badge, .wiki .wiki-class-badge, .wiki .badge-red, .wiki .wiki-class-badge-red, .wiki .badge-red-light, .wiki .wiki-class-badge-red-light  {
+  display: inline-block;min-width: 10px;padding: 3px 7px;font-size: 12px;font-weight: 700;line-height: 1;
+  color: #fff;text-align: center;white-space: nowrap;vertical-align: middle;background-color: #777;border-radius: 10px;}
+.wiki .badge-red, .wiki .wiki-class-badge-red { color: rgb(130, 33, 17); background-color: rgb(246, 197, 190); }
+.wiki .badge-red-light, .wiki .wiki-class-badge-red-light { color: rgb(246, 197, 190); background-color: rgb(255, 255, 255); }
 
 /* Code / Preformatted */
 p > code, li > code { color:#222; background-color:#fafafa; padding:1px 2px; border:1px solid #e2e2e2; }
