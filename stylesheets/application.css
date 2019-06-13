@@ -126,7 +126,7 @@ div.wiki ul.toc a { color:#666; }
   border-bottom: 1px solid #ddd;
 }
 
-.wiki footer a, .wiki footer a:link, .wiki footer a:visited {
+.project-actus-doip .wiki h1 a, .wiki footer a, .wiki footer a:link, .wiki footer a:visited {
   color: #d6cecc;
   text-decoration: none;
 }
