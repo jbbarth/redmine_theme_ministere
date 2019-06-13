@@ -86,8 +86,8 @@ div.wiki ul.toc a { color:#666; }
 .wiki .badge-purple-light, .wiki .wiki-class-badge-purple-light,
 .wiki .badge-green, .wiki .wiki-class-badge-green,
 .wiki .badge-green-light, .wiki .wiki-class-badge-green-light {
-  display: inline-block;min-width: 10px;padding: 2px 3px;font-size: 12px;font-weight: 700;line-height: 1;
-  color: #fff;text-align: center;white-space: nowrap;background-color: #777;border-radius: 10px;}
+  display: inline-block;min-width: 10px;padding: 1px 4px 3px;font-size: 10px;line-height: 1;
+  color: #fff;text-align: center;white-space: nowrap;background-color: #777;border-radius: 3px;}
 .wiki .badge-red, .wiki .wiki-class-badge-red { color: rgb(255, 255, 255); background-color: rgb(130, 33, 17); }
 .wiki .badge-red-light, .wiki .wiki-class-badge-red-light { color: rgb(130, 33, 17); background-color: rgb(246, 197, 190); }
 .wiki .badge-blue, .wiki .wiki-class-badge-blue { color: rgb(255, 255, 255); background-color: rgb(28, 69, 135); }
@@ -98,6 +98,8 @@ div.wiki ul.toc a { color:#666; }
 .wiki .badge-purple-light, .wiki .wiki-class-badge-purple-light { color: rgb(65, 35, 109); background-color: rgb(228, 215, 245); }
 .wiki .badge-green, .wiki .wiki-class-badge-green { color: rgb(255, 255, 255); background-color: rgb(7, 98, 57); }
 .wiki .badge-green-light, .wiki .wiki-class-badge-green-light { color: rgb(7, 98, 57); background-color: rgb(185, 228, 208); }
+
+.wiki footer{background-repeat: no-repeat;}
 
 /* Code / Preformatted */
 p > code, li > code { color:#222; background-color:#fafafa; padding:1px 2px; border:1px solid #e2e2e2; }
