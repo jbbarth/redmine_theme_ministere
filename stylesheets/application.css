@@ -116,6 +116,9 @@ div.wiki ul.toc a { color:#666; }
 }
 .wiki footer h2{
   color: #FFFFFF !important;
+  margin: 5px 0 10px;
+  padding: 4px 0;
+  border-bottom: 1px solid #ddd;
 }
 
 .wiki footer a, .wiki footer a:link, .wiki footer a:visited {
