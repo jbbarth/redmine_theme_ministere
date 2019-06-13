@@ -98,6 +98,10 @@ div.wiki ul.toc a { color:#666; }
 .wiki .badge-purple-light, .wiki .wiki-class-badge-purple-light { color: rgb(65, 35, 109); background-color: rgb(228, 215, 245); }
 .wiki .badge-green, .wiki .wiki-class-badge-green { color: rgb(255, 255, 255); background-color: rgb(7, 98, 57); }
 .wiki .badge-green-light, .wiki .wiki-class-badge-green-light { color: rgb(7, 98, 57); background-color: rgb(185, 228, 208); }
+.wiki .badge-grey, .wiki .wiki-class-badge-grey { color: rgb(255, 255, 255); background-color: rgb(153, 153, 153); }
+.wiki .badge-grey-light, .wiki .wiki-class-badge-grey-light { color: rgb(153, 153, 153); background-color: rgb(239, 239, 239); }
+.wiki .badge-dark, .wiki .wiki-class-badge-dark { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); }
+
 
 .wiki footer{background-repeat: no-repeat;}
 
