@@ -85,7 +85,7 @@ div.wiki ul.toc a { color:#666; }
 .wiki .badge-purple, .wiki .wiki-class-badge-purple,
 .wiki .badge-purple-light, .wiki .wiki-class-badge-purple-light,
 .wiki .badge-green, .wiki .wiki-class-badge-green,
-.wiki .badge-green-light, .wiki .wiki-class-badge-green-light {
+.wiki .badge-green-light, .wiki .wiki-class-badge-green-light, .wiki .badge-grey, .wiki .wiki-class-badge-grey, .wiki .badge-grey-light, .wiki .wiki-class-badge-grey-light, .wiki .badge-dark, .wiki .wiki-class-badge-dark {
   display: inline-block;min-width: 10px;padding: 1px 4px 3px;font-size: 10px;line-height: 1;
   color: #fff;text-align: center;white-space: nowrap;background-color: #777;border-radius: 3px;}
 .wiki .badge-red, .wiki .wiki-class-badge-red { color: rgb(255, 255, 255); background-color: rgb(130, 33, 17); }
