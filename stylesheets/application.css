@@ -109,9 +109,14 @@ div.wiki ul.toc a { color:#666; }
   margin: 0 -10px;
   padding: 10px;
 }
-.wiki footer h1{
+
+.project-actus-doip .breadcrumb{
+  line-height: 37px;
+}
+
+.project-actus-doip .wiki h1, .wiki footer h1{
   color: #FFFFFF !important;
-  background-color: transparent;
+  background-color: #293133;
   text-shadow: none;
 }
 .wiki footer h2{
