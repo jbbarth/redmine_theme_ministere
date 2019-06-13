@@ -103,7 +103,36 @@ div.wiki ul.toc a { color:#666; }
 .wiki .badge-dark, .wiki .wiki-class-badge-dark { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); }
 
 
-.wiki footer{background-repeat: no-repeat;}
+.wiki footer{
+  background-color: #293133;
+  color: #FFFFFF;
+  margin: 0 -10px;
+  padding: 10px;
+}
+.wiki footer h1{
+  color: #FFFFFF !important;
+  background-color: transparent;
+  text-shadow: none;
+}
+.wiki footer h2{
+  color: #FFFFFF !important;
+}
+
+.wiki footer a, .wiki footer a:link, .wiki footer a:visited {
+  color: #d6cecc;
+  text-decoration: none;
+}
+
+div.wiki footer pre {
+  background-color: #d6cecc;
+  color: #293133;
+  border: none;
+}
+div.wiki footer table, div.wiki footer td, div.wiki footer th {
+  vertical-align: top;
+  border: none;
+  padding: 20px;
+}
 
 /* Code / Preformatted */
 p > code, li > code { color:#222; background-color:#fafafa; padding:1px 2px; border:1px solid #e2e2e2; }
