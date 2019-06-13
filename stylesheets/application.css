@@ -131,6 +131,10 @@ div.wiki ul.toc a { color:#666; }
   text-decoration: none;
 }
 
+.wiki a.underline:link{
+  text-decoration: underline;
+}
+
 .wiki footer a:hover {
   text-decoration: underline;
 }
