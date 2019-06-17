@@ -106,38 +106,34 @@ div.wiki ul.toc a { color:#666; }
 .wiki .badge-dark, .wiki .wiki-class-badge-dark { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); }
 
 
-.wiki footer{
+.wiki .actu-footer{
   background-color: #293133;
   color: #FFFFFF;
   margin: 3em -10px 0;
   padding: 10px;
 }
 
-.project-actus-doip .breadcrumb{
-  line-height: 37px;
-}
-
-.project-actus-doip .wiki h1, .wiki footer h1{
+.wiki .actu-footer h1{
   color: #FFFFFF !important;
   background-color: #293133;
   text-shadow: none;
 }
-.wiki footer h2{
+.wiki .actu-footer h2{
   color: #FFFFFF !important;
   margin: 5px 0 10px;
   padding: 4px 0;
   border-bottom: 1px solid #ddd;
 }
 
-.wiki footer table{
+.wiki .actu-footer table{
   margin: auto;
 }
 
-.wiki footer .octicon {
+.wiki .actu-footer .octicon {
   margin-right: 4px;
 }
 
-.project-actus-doip .wiki h1 a, .wiki footer a, .wiki footer a:link, .wiki footer a:visited {
+.wiki .actu-footer a, .wiki .actu-footer a:link, .wiki .actu-footer a:visited {
   color: #d6cecc;
   text-decoration: none;
 }
@@ -146,22 +142,22 @@ div.wiki ul.toc a { color:#666; }
   text-decoration: underline;
 }
 
-.wiki footer a:hover {
+.wiki .actu-footer a:hover {
   text-decoration: underline;
 }
 
-div.wiki footer pre {
+div.wiki .actu-footer pre {
   background-color: #d6cecc;
   color: #293133;
   border: none;
 }
-div.wiki footer table, div.wiki footer td, div.wiki footer th {
+div.wiki .actu-footer table, div.wiki .actu-footer td, div.wiki .actu-footer th {
   vertical-align: top;
   border: none;
   padding: 20px;
 }
 
-div.wiki footer td{
+div.wiki .actu-footer td{
   min-width: 140px;
 }
 
