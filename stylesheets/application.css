@@ -111,6 +111,14 @@ div.wiki ul.toc a { color:#666; }
   color: #FFFFFF;
   margin: 3em -10px 0;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wiki .actu-footer .item{
+    padding: 20px;
+    min-width: 160px;
 }
 
 .wiki .actu-footer h1{
@@ -123,10 +131,6 @@ div.wiki ul.toc a { color:#666; }
   margin: 5px 0 10px;
   padding: 4px 0;
   border-bottom: 1px solid #ddd;
-}
-
-.wiki .actu-footer table{
-  margin: auto;
 }
 
 .wiki .actu-footer .octicon {
@@ -146,19 +150,10 @@ div.wiki ul.toc a { color:#666; }
   text-decoration: underline;
 }
 
-div.wiki .actu-footer pre {
+.wiki .actu-footer pre {
   background-color: #d6cecc;
   color: #293133;
   border: none;
-}
-div.wiki .actu-footer table, div.wiki .actu-footer td, div.wiki .actu-footer th {
-  vertical-align: top;
-  border: none;
-  padding: 20px;
-}
-
-div.wiki .actu-footer td{
-  min-width: 140px;
 }
 
 /* Code / Preformatted */
