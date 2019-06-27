@@ -156,6 +156,10 @@ div.wiki ul.toc a { color:#666; }
   border: none;
 }
 
+.wiki .actu-footer pre a {
+    color: #293133;
+}
+
 @media (max-width: 712px) {
     .actu-footer{
         justify-content: left;
