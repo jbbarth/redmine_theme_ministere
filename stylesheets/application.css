@@ -156,6 +156,15 @@ div.wiki ul.toc a { color:#666; }
   border: none;
 }
 
+@media (max-width: 712px) {
+    .actu-footer{
+        justify-content: left;
+    }
+    .actu-footer .item{
+        width: 100%;
+    }
+}
+
 /* Code / Preformatted */
 p > code, li > code { color:#222; background-color:#fafafa; padding:1px 2px; border:1px solid #e2e2e2; }
 
