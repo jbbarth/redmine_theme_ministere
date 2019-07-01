@@ -169,6 +169,48 @@ div.wiki ul.toc a { color:#666; }
     }
 }
 
+.wiki .hexagon {
+  width: 120px;
+  height: 66px;
+  background: #293133;
+  position: relative;
+  color: #ffffff;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wiki .hexagon:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 30px solid #293133;
+}
+.wiki .hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 30px solid #293133;
+}
+
+.wiki .actu-header .subtitle {
+    color: #a6a6a6;
+    text-align: center;
+    margin: auto auto 20px auto;
+}
+
 /* Code / Preformatted */
 p > code, li > code { color:#222; background-color:#fafafa; padding:1px 2px; border:1px solid #e2e2e2; }
 
