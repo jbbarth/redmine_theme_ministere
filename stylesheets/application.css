@@ -75,6 +75,12 @@ div.wiki ul.toc a { color:#666; }
 .wiki p.info, .wiki p.wiki-class-info { background: #d5e9f6 url(../images/tab_info.gif) no-repeat left top; }
 .wiki p.todo, .wiki p.wiki-class-todo { background: #fff9d8 url(../images/tab_yellow.gif) no-repeat left top; }
 
+.wiki p.wiki-class-info-full-page {
+  border: none; margin-top: 0.25em; background: #293133;
+  color: white; text-align:left; display:block; font-size:12px;
+  padding: 1.25em;margin:0 -10px;
+}
+
 .wiki .badge, .wiki .wiki-class-badge,
 .wiki .badge-red, .wiki .wiki-class-badge-red,
 .wiki .badge-red-light, .wiki .wiki-class-badge-red-light,
@@ -181,6 +187,13 @@ div.wiki ul.toc a { color:#666; }
   display: flex;
   align-items: center;
   justify-content: center;
+  display: grid;
+}
+.wiki .hexagon .main {
+  font-size: 118px;
+}
+.wiki .hexagon .second {
+
 }
 .wiki .hexagon-before {
   width: 0;
