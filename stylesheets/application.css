@@ -175,34 +175,34 @@ div.wiki ul.toc a { color:#666; }
   background: #293133;
   position: relative;
   color: #ffffff;
-  margin: 40px auto;
+  margin: 0 auto;
   text-align: center;
   font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.wiki .hexagon:before {
-  content: "";
-  position: absolute;
-  top: -30px;
-  left: 0;
+.wiki .hexagon-before {
   width: 0;
   height: 0;
+  margin: 10px auto 0 auto;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
   border-bottom: 30px solid #293133;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.wiki .hexagon:after {
-  content: "";
-  position: absolute;
-  bottom: -30px;
-  left: 0;
+.wiki .hexagon-after {
   width: 0;
   height: 0;
+  margin: 0 auto 10px auto;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
   border-top: 30px solid #293133;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wiki .actu-header .subtitle {
