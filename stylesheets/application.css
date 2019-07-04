@@ -183,21 +183,19 @@ div.wiki ul.toc a { color:#666; }
 
 .wiki .hexagon {
   width: 120px;
-  height: 66px;
   background: #293133;
   position: relative;
   color: #ffffff;
   margin: 0 auto;
   text-align: center;
   font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  line-height: 66px;
 }
 .wiki .hexagon .main {
   font-size: 130px;
   letter-spacing: -0.15em;
-  margin-right: 0.15em;
+  margin-left: -0.15em;
 }
 .wiki .hexagon .second {
 
