@@ -77,8 +77,14 @@ div.wiki ul.toc a { color:#666; }
 
 .wiki p.info-full-page, .wiki p.wiki-class-info-full-page {
   border: none; background: #293133;
-  color: white; text-align:left; display:block; font-size:12px;
+  color: white; text-align:left; display:inline-block; font-size:12px;
   padding: 1.25em; margin:1.25em -10px;
+}
+
+.wiki p.info-full-page img, .wiki p.wiki-class-info-full-page img {
+  margin: 0 1.25em;
+  min-width: 100px;
+  float: left;
 }
 
 .wiki .badge, .wiki .wiki-class-badge,
