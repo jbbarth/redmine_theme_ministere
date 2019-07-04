@@ -79,6 +79,7 @@ div.wiki ul.toc a { color:#666; }
   border: none; background: #293133;
   color: white; text-align:left; display:inline-block; font-size:12px;
   padding: 1.25em; margin:1.25em -10px;
+  box-shadow: 3px 3px 5px 0px rgba(85,85,85,0.7);
 }
 
 .wiki p.info-full-page img, .wiki p.wiki-class-info-full-page img {
