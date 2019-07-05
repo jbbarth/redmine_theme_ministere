@@ -79,7 +79,9 @@ div.wiki ul.toc a { color:#666; }
   border: none; background: #293133;
   color: white; text-align:left; display:inline-block; font-size:12px;
   padding: 1.25em; margin:1.25em -10px;
-  box-shadow: 3px 3px 5px 0px rgba(85,85,85,0.7);
+  box-shadow:
+          inset 0px 11px 8px -10px #AAA,
+          inset 0px -11px 8px -10px #AAA;
 }
 
 .wiki p.info-full-page img, .wiki p.wiki-class-info-full-page img {
@@ -184,14 +186,16 @@ div.wiki ul.toc a { color:#666; }
 
 .wiki .hexagon {
   width: 120px;
+  height: 66px;
   background: #293133;
   position: relative;
   color: #ffffff;
   margin: 0 auto;
   text-align: center;
   font-size: 16px;
-  display: block;
-  line-height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .wiki .hexagon .main {
   font-size: 130px;
