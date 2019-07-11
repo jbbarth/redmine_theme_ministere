@@ -86,7 +86,6 @@ div.wiki ul.toc a { color:#666; }
 
 .wiki p.info-full-page img, .wiki p.wiki-class-info-full-page img {
   margin: 0 1.25em;
-  min-width: 100px;
   float: left;
 }
 
