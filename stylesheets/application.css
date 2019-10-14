@@ -1,7 +1,7 @@
 /* Adapted from Basecamp stylesheet by Peter Theill, Commanigy - http://commanigy.com */
 
 /* COLOR THEMES: */
-/* green version: top_menu=6CA30A, header=9CC90E, tab_inactive=6CB30B, tab_hover=5CA306 */
+/* green version: top_menu=229e43, header=73c448, tab_inactive=229e43, tab_hover=20ad46 */
 /* red version: top_menu=3B4B56, header=9B0827, tab_inactive=750A15, tab_hover=620010 */
 
 @import url(../../../stylesheets/application.css);
@@ -13,12 +13,12 @@ a:hover, a:active { color:#2A5685; }
 ul, ol { line-height:1.4em; margin-top:0.4em; margin-bottom:1em; } /*TODO: see if it breaks something */
 
 #header, #top-menu { margin:0; }
-#header { background:/*#79B51C*/#9CC90E url(../images/logo.png) no-repeat 10px 50%;padding:8px 4px 0 108px; height:70px;background-size: 91px auto; }
+#header { background:/*#79B51C*/#73c448 url(../images/logo.png) no-repeat 10px 50%;padding:8px 4px 0 108px; height:70px;background-size: 91px auto; }
 #header h1 { margin:0; }
 #header h1, #header h1 a { color:#fff; text-shadow:1px 1px 2px #bbb; }
 #header #quick-search { margin:4px; }
 #header h1 .breadcrumbs {  margin-top: -2px;  }
-#top-menu { background-color:#6CA30A; font-size:10px; position:relative; padding:0; height:21px }
+#top-menu { background-color:#229e43; font-size:10px; position:relative; padding:0; height:21px }
 #top-menu ul { padding:0 8px; }
 #top-menu li, #top-menu #loggedas { color:#fff; line-height:21px; }
 #top-menu li a { color:#fff; font-weight:normal; padding:2px 4px; margin:0; }
@@ -252,19 +252,19 @@ p > code, li > code { color:#222; background-color:#fafafa; padding:1px 2px; bor
 #sidebar a.selected { background-color:#5a6695; padding:1px 6px 2px 5px; margin-left:-5px; color:#fff; border-radius:4px; box-shadow: inset 0 0 1px #bbbbf5; }
 
 /* Modals */
-div.modal { border:2px solid #9CC90E; padding:0; }
-div.modal h3.title { background-color:#9CC90E; padding:4px 10px; border-top-left-radius:1px; border-top-right-radius:1px; }
+div.modal { border:2px solid #73c448; padding:0; }
+div.modal h3.title { background-color:#73c448; padding:4px 10px; border-top-left-radius:1px; border-top-right-radius:1px; }
 .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { -moz-border-radius-bottomright: 0; -webkit-border-bottom-right-radius: 0; -khtml-border-bottom-right-radius: 0; border-bottom-right-radius: 0; }
 .ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { -moz-border-radius-bottomleft: 0; -webkit-border-bottom-left-radius: 0; -khtml-border-bottom-left-radius: 0; border-bottom-left-radius: 0; }
 .ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { -moz-border-radius-topright: 0; -webkit-border-top-right-radius: 0; -khtml-border-top-right-radius: 0; border-top-right-radius: 0; }
 .ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { -moz-border-radius-topleft: 0; -webkit-border-top-left-radius: 0; -khtml-border-top-left-radius: 0; border-top-left-radius: 0; }
-.ui-widget-header, div.ui-widget-header { border: 1px solid #9CC90E; background: #9CC90E; color: white; }
+.ui-widget-header, div.ui-widget-header { border: 1px solid #73c448; background: #73c448; color: white; }
 
 /* Menu */
 #main-menu { left:108px; padding:0; margin:0; }
-#main-menu li a { color:#fff; background-color:#6CB30B; font-weight:normal; margin:0 1px; padding-bottom:8px; }
+#main-menu li a { color:#fff; background-color:#229e43; font-weight:normal; margin:0 1px; padding-bottom:8px; }
 #main-menu li a.settings {background-color:transparent;}
-#main-menu li a:hover { color:#fff; background:#5CA306; text-decoration:none; }
+#main-menu li a:hover { color:#fff; background:#20ad46; text-decoration:none; }
 #main-menu li a.selected, #main-menu li a.selected:hover {
   /* following lines taken from basecamphq directly. Thanks 37signals!! */
   background:#e9e9e9;
@@ -274,15 +274,15 @@ div.modal h3.title { background-color:#9CC90E; padding:4px 10px; border-top-left
   color:#222222; font-weight:bold; margin:0 1px; padding-bottom:8px; text-decoration:none;
 }
 #main-menu .menu-children {
-  border-right: 1px solid #6CB30B;
-  border-bottom: 1px solid #6CB30B;
-  border-left: 1px solid #6CB30B;
+  border-right: 1px solid #229e43;
+  border-bottom: 1px solid #229e43;
+  border-left: 1px solid #229e43;
 }
-#main-menu li a.new-object { background-color: #6CB30B;}
-#main-menu .menu-children li a:hover {color: #fff; background-color: #6CB30B;}
+#main-menu li a.new-object { background-color: #229e43;}
+#main-menu .menu-children li a:hover {color: #fff; background-color: #229e43;}
 
 /* Quick-search box */
-#quick-search { color:#9CC90E; }
+#quick-search { color:#73c448; }
 #quick-search label { display:none; }
 #quick-search input#q { border:1px solid #aaa; padding:3px 20px 3px 3px; border-radius:3px; box-sizing:border-box;
                         background:#fff url(../images/search.png) no-repeat right center; }
@@ -311,6 +311,46 @@ table.list th .filter:focus { outline:none; }
 
 /* Forms */
 .tabular label { line-height:2em; }
+
+form#issue-form input[type='submit'] {
+  cursor: pointer;
+  min-height: 1em;
+  outline: 0;
+  border: none;
+  vertical-align: baseline;
+  background-color: #73c448;
+  color: #f9ffef;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  margin: 0 .25em 0 0;
+  padding: .78571429em 1.5em .78571429em;
+  text-transform: none;
+  text-shadow: none;
+  font-weight: 700;
+  line-height: 1em;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: .28571429rem;
+  -webkit-box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
+  box-shadow: 0 0 0 1px
+  transparent inset,0 0 0 0
+  rgba(34,36,38,.15) inset;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: opacity .1s ease,background-color .1s ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+  transition: opacity .1s ease,background-color .1s ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+  transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+  transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 13px;
+}
+form#issue-form input[type='submit']:hover, form#issue-form input[type='submit']:focus {
+  background-color: #229e43;
+  color:#fff;
+  text-shadow:none
+}
 
 /* Issues */
 div.issue div.subject h3 { color:#000; font-weight:bold; margin:4px 6px; }
@@ -374,11 +414,11 @@ tr.priority-3, table.list:not(.odd-even) tbody tr:nth-child(odd).priority-3,
 table.list:not(.odd-even) tbody tr:nth-child(even).priority-3 { background:#fadcb3; }
 tr.priority-3:hover td, tr.priority-3:hover a, tr.priority-3:hover a:hover, tr.priority-3:hover span.status, tr.priority-3:hover p.extra-fields, td.priority-3 { color:#fadcb3; background:#b36d00; }
 
-tr.priority-2, table.list tbody tr.priority-2:hover { color:#64992c; }
-tr.priority-2 a, tr.priority-2:hover a { color:#64992c; }
+tr.priority-2, table.list tbody tr.priority-2:hover { color:#229e43; }
+tr.priority-2 a, tr.priority-2:hover a { color:#229e43; }
 tr.priority-2, table.list:not(.odd-even) tbody tr:nth-child(odd).priority-2,
 table.list:not(.odd-even) tbody tr:nth-child(even).priority-2 { background:#f9ffef; }
-tr.priority-2:hover td, tr.priority-2:hover a, tr.priority-2:hover a:hover, tr.priority-2:hover span.status, tr.priority-2:hover p.extra-fields, td.priority-2 { color:#f9ffef; background:#64992c; }
+tr.priority-2:hover td, tr.priority-2:hover a, tr.priority-2:hover a:hover, tr.priority-2:hover span.status, tr.priority-2:hover p.extra-fields, td.priority-2 { color:#f9ffef; background:#229e43; }
 
 tr.priority-1, table.list tbody tr.priority-1:hover { color:#888; }
 tr.priority-1 a, tr.priority-1:hover a { color:#888; }
@@ -388,9 +428,9 @@ tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover, tr.p
 
 /* progress bars */
 table.progress td { height:10px; }
-table.progress td.closed { background-color:#9CC90E; }
+table.progress td.closed { background-color:#73c448; }
 tr.issue td.done_ratio { width:80px; }
-tr.issue:hover table.progress td.closed { background-color:#9CC90E; } /* fix needed because of our additions */
+tr.issue:hover table.progress td.closed { background-color:#73c448; } /* fix needed because of our additions */
 
 /* reduce sidebar */
 #sidebar, * html #sidebar { -moz-box-sizing:border-box; box-sizing:border-box; width:15%; padding-left:20px; }
@@ -433,7 +473,7 @@ tr.issue:hover table.progress td.closed { background-color:#9CC90E; } /* fix nee
 @media all and (max-width: 899px)
 {
   .theme-Ministere #header{
-    background-color: #9CC90E; /* Force header background color */
+    background-color: #73c448; /* Force header background color */
     position: relative;
   }
 
