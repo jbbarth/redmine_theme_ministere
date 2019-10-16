@@ -318,7 +318,7 @@ form#issue-form input[type='submit'] {
   outline: 0;
   border: none;
   vertical-align: baseline;
-  background-color: #73c448;
+  background-color: #229e43;
   color: #f9ffef;
   font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
   margin: 0 .25em 0 0;
@@ -347,7 +347,7 @@ form#issue-form input[type='submit'] {
   font-size: 13px;
 }
 form#issue-form input[type='submit']:hover, form#issue-form input[type='submit']:focus {
-  background-color: #229e43;
+  background-color: #20ad46;
   color:#fff;
   text-shadow:none
 }
