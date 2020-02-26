@@ -190,8 +190,8 @@ div.wiki ul.toc a { color:#666; }
   position: relative;
   color: #ffffff;
   margin: 0 auto;
-  text-align: center;
-  font-size: 16px;
+  text-align: left;
+  font-size: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,10 +227,21 @@ div.wiki ul.toc a { color:#666; }
   justify-content: center;
 }
 
+.wiki .actu-header {
+  clear: both;
+  display: flex;
+  justify-content: flex-start;
+}
+.wiki .actu-header .logo {
+    order: 1;
+}
 .wiki .actu-header .subtitle {
-    color: #a6a6a6;
-    text-align: center;
-    margin: auto auto 20px auto;
+  color: #293133;
+  text-align: left;
+  margin: auto 0;
+  padding-left: 10px;
+  font-size: 16px;
+  order: 2;
 }
 
 /* Code / Preformatted */
