@@ -184,14 +184,14 @@ div.wiki ul.toc a { color:#666; }
 }
 
 .wiki .hexagon {
-  width: 120px;
-  height: 66px;
+  width: 80px;
+  height: 44px;
   background: #293133;
   position: relative;
   color: #ffffff;
   margin: 0 auto;
   text-align: left;
-  font-size: 38px;
+  font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -208,9 +208,9 @@ div.wiki ul.toc a { color:#666; }
   width: 0;
   height: 0;
   margin: 10px auto 0 auto;
-  border-left: 60px solid transparent;
-  border-right: 60px solid transparent;
-  border-bottom: 30px solid #293133;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 20px solid #293133;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -219,9 +219,9 @@ div.wiki ul.toc a { color:#666; }
   width: 0;
   height: 0;
   margin: 0 auto 10px auto;
-  border-left: 60px solid transparent;
-  border-right: 60px solid transparent;
-  border-top: 30px solid #293133;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 20px solid #293133;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,12 +239,13 @@ div.wiki ul.toc a { color:#666; }
   color: #293133;
   text-align: left;
   margin: auto 0;
-  padding-left: 16px;
-  font-size: 16px;
+  padding-left: 10px;
+  font-size: 18px;
   order: 2;
 }
 .wiki .actu-header .dynamic-subtitle {
   color: #808080;
+  font-size: 15px;
 }
 
 /* Code / Preformatted */
