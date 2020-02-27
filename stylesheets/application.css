@@ -374,6 +374,7 @@ tr.issue td.project { max-width:200px; white-space:normal; }
 tr.issue td.subject { min-width:300px !important; }
 #attachments_fields input.description { display:none; }
 #history {padding: 0;margin-bottom: 0;border: none;}
+#history .tab-content {padding: 0;margin-bottom: 0;border: none;}
 
 /* Wiki */
 .jstElements { margin:0 0 2px 0; }
