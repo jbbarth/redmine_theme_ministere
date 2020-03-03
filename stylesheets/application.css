@@ -460,6 +460,17 @@ tr.issue:hover table.progress td.closed { background-color:#73c448; } /* fix nee
   color: #169;
 }
 
+/***** Tooltips *****/
+/* Force Redmine standard styles overridden by LaPoutre */
+.ui-tooltip {
+  background: #000 !important;
+  color: #fff !important;
+  font-size: 0.9em !important;
+  border-radius: 3px !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
 /* Responsive CSS */
 @media all and (max-width: 899px)
 {
