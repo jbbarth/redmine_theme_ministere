@@ -32,7 +32,7 @@ ul, ol { line-height:1.4em; margin-top:0.4em; margin-bottom:1em; } /*TODO: see i
 #footer a:hover { background:#666 none repeat scroll 0 0; color:#fff !important;}
 #footer a:link, #footer a:visited { color:#666; }
 
-.contextual {margin:0;}
+.contextual {margin:0;line-height:2.4em;}
 
 div.flash { margin:6px 0 16px; }
 
