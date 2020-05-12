@@ -414,7 +414,7 @@ tr.priority-2:hover td, tr.priority-2:hover a, tr.priority-2:hover a:hover, tr.p
 tr.priority-1, table.list tbody tr.priority-1:hover { color:#888; }
 tr.priority-1 a, tr.priority-1:hover a { color:#888; }
 tr.priority-1, table.list:not(.odd-even) tbody tr:nth-child(odd).priority-1,
-table.list:not(.odd-even) tbody tr:nth-child(even).priority-1 { background:#eee; }
+table.list:not(.odd-even) tbody tr:nth-child(even).priority-1 { background:#ffffff; }
 tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover, tr.priority-1:hover span.status, tr.priority-1:hover p.extra-fields, td.priority-1 { color:#eee; background:#bbb; }
 
 /* progress bars */
