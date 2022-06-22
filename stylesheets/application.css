@@ -471,7 +471,7 @@ tr.issue:hover table.progress td.closed { background-color:#73c448; } /* fix nee
   border-radius: 3px !important;
   border: 0 !important;
   box-shadow: none !important;
-  opacity: 0.7 !important;
+  opacity: 0.9 !important;
 }
 
 /* Responsive CSS */
