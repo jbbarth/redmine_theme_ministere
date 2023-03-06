@@ -400,32 +400,32 @@ tr.priority-4 a, tr.priority-3:hover a { color:#c00; }
 tr.priority-4, table.list:not(.odd-even) tbody tr:nth-child(odd).priority-4,
 table.list:not(.odd-even) tbody tr:nth-child(even).priority-4 { background:#ffe3e3; }
 tr.priority-4:hover td, tr.priority-4:hover a, tr.priority-4:hover a:hover, tr.priority-4:hover span.status, tr.priority-4:hover p.extra-fields, td.priority-4 { color:#ffe3e3; background:#c00; }
-tr.priority-4 .project-badge { background-color:#c00; }
-tr.priority-4:hover .project-badge { background-color:#ffe3e3; }
+tr.priority-4 .project-badge { border: 1px solid #c00;background-color: inherit;color: inherit; }
+tr.priority-4:hover .project-badge { border-color:#ffe3e3; }
 
 tr.priority-3, table.list tbody tr.priority-3:hover { color:#b36d00; font-weight:normal; }
 tr.priority-3 a, tr.priority-2:hover a { color:#b36d00; }
 tr.priority-3, table.list:not(.odd-even) tbody tr:nth-child(odd).priority-3,
 table.list:not(.odd-even) tbody tr:nth-child(even).priority-3 { background:#fadcb3; }
 tr.priority-3:hover td, tr.priority-3:hover a, tr.priority-3:hover a:hover, tr.priority-3:hover span.status, tr.priority-3:hover p.extra-fields, td.priority-3 { color:#fadcb3; background:#b36d00; }
-tr.priority-3 .project-badge { background-color:#b36d00; }
-tr.priority-3:hover .project-badge { background-color:#fadcb3; }
+tr.priority-3 .project-badge { border: 1px solid #b36d00;background-color: inherit;color: inherit; }
+tr.priority-3:hover .project-badge { border-color:#fadcb3; }
 
 tr.priority-2, table.list tbody tr.priority-2:hover { color:#229e43; }
 tr.priority-2 a, tr.priority-2:hover a { color:#229e43; }
 tr.priority-2, table.list:not(.odd-even) tbody tr:nth-child(odd).priority-2,
 table.list:not(.odd-even) tbody tr:nth-child(even).priority-2 { background:#f9ffef; }
 tr.priority-2:hover td, tr.priority-2:hover a, tr.priority-2:hover a:hover, tr.priority-2:hover span.status, tr.priority-2:hover p.extra-fields, td.priority-2 { color:#f9ffef; background:#229e43; }
-tr.priority-2 .project-badge { background-color:#229e43; }
-tr.priority-2:hover .project-badge { background-color:#f9ffef; }
+tr.priority-2 .project-badge { border: 1px solid #229e43;background-color: inherit;color: inherit; }
+tr.priority-2:hover .project-badge { border-color:#f9ffef; }
 
 tr.priority-1, table.list tbody tr.priority-1:hover { color:#888; }
 tr.priority-1 a, tr.priority-1:hover a { color:#888; }
 tr.priority-1, table.list:not(.odd-even) tbody tr:nth-child(odd).priority-1,
 table.list:not(.odd-even) tbody tr:nth-child(even).priority-1 { background:#ffffff; }
 tr.priority-1:hover td, tr.priority-1:hover a, tr.priority-1:hover a:hover, tr.priority-1:hover span.status, tr.priority-1:hover p.extra-fields, td.priority-1 { color:#ffffff; background:#bbb; }
-tr.priority-1 .project-badge { background-color:#888; }
-tr.priority-1:hover .project-badge { background-color:#ffffff; }
+tr.priority-1 .project-badge { border: 1px solid #888;background-color: inherit;color: inherit; }
+tr.priority-1:hover .project-badge { border-color:#ffffff; }
 
 /* progress bars */
 table.progress td { height:10px; }
