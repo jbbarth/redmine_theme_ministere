@@ -489,10 +489,6 @@ tr.issue:hover table.progress td.closed { background-color:#73c448; } /* fix nee
     background-color: #73c448; /* Force header background color */
   }
 
-  .theme-Ministere #main {
-    margin:auto;
-  }
-
   /* styles for combobox within quick-search (#project_quick_jump_box) */
   .theme-Ministere #header #quick-search .select2 {
     font-size: 1.5em;
