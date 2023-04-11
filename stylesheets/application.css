@@ -530,7 +530,7 @@ tr.issue:hover table.progress td.closed { background-color:#73c448; } /* fix nee
 
   #header { background-image: none;}
 
-  .theme-Ministere #barre {
+  .theme-Ministere #barre, .theme-Ministere #poutre-landing {
     display: none;
   }
 }
