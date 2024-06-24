@@ -345,6 +345,8 @@ form#issue-form {
   margin-right: auto;
 }
 
+.splitcontent {overflow: initial;}
+
 /* Issues */
 div.issue div.subject h3 { color:#000; font-weight:bold; margin:4px 6px; }
 div.issue p.author { font-style:italic; margin:3px 0 12px 4px; }
