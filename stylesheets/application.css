@@ -107,7 +107,8 @@ div.wiki ul.toc a { color:#666; }
 .wiki .badge-grey, .wiki .wiki-class-badge-grey,
 .wiki .badge-grey-light, .wiki .wiki-class-badge-grey-light,
 .wiki .badge-dark, .wiki .wiki-class-badge-dark,
-.wiki .badge-tldr, .wiki .wiki-class-badge-tldr {
+.wiki .badge-tldr, .wiki .wiki-class-badge-tldr,
+.wiki .badge-warning, .wiki .wiki-class-badge-warning  {
   display: inline-block;min-width: 10px;padding: 3px 4px;font-size: 10px;line-height: 1;
   color: #fff;text-align: center;white-space: nowrap;background-color: #777;border-radius: 3px;}
 .wiki .badge-red, .wiki .wiki-class-badge-red { color: rgb(255, 255, 255); background-color: rgb(130, 33, 17); }
@@ -124,7 +125,7 @@ div.wiki ul.toc a { color:#666; }
 .wiki .badge-grey-light, .wiki .wiki-class-badge-grey-light { color: rgb(153, 153, 153); background-color: rgb(239, 239, 239); }
 .wiki .badge-dark, .wiki .wiki-class-badge-dark { color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); }
 .wiki .badge-tldr, .wiki .wiki-class-badge-tldr { color: rgb(255, 255, 255); background-color: rgb(241, 137, 65); }
-
+.wiki .badge-warning, .wiki .wiki-class-badge-warning { color: rgb(255, 36, 45); background-color: rgb(255, 255, 255); font-size: 14px; padding: 0; border-radius: 0; }
 
 .wiki .actu-footer{
   background-color: #293133;
@@ -265,7 +266,7 @@ p > code, li > code { color:#222; background-color:#fafafa; padding:1px 2px; bor
 #sidebar p { margin:3px 2px; }
 #sidebar .subsection { padding-left:10px; }
 #admin-menu a {display:inline-block;line-height:1.4em;padding-top: 2px;padding-bottom: 3px;}
-#admin-menu a.selected { background-color:#5a6695; background-position:6px center; display:inline-block; padding:2px 7px 2px 26px !important; margin-left:-8px; margin-right:20px; color:#fff; border-radius:4px; box-shadow: inset 0 0 1px #bbbbf5; line-height:19px; }
+#admin-menu a.selected { background-color:#5a6695; background-position:6px center; display:inline-block; padding:2px 7px 2px 7px; margin-left:-8px; margin-right:20px; color:#fff; border-radius:4px; box-shadow: inset 0 0 1px #bbbbf5; line-height:19px; }
 #sidebar a.selected { background-color:#5a6695; padding:1px 6px 2px 5px; margin-left:-5px; color:#fff; border-radius:4px; box-shadow: inset 0 0 1px #bbbbf5; }
 #sidebar select#user_id {max-width: 100%;}
 
