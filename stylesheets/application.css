@@ -382,7 +382,7 @@ tr.issue td.project { max-width:200px; white-space:normal; }
 tr.issue td.subject { min-width:300px !important; }
 #attachments_fields input.description { display:none; }
 #history {padding: 0;margin-bottom: 0;border: none;}
-#history .tab-content {padding: 0;margin-bottom: 0;border: none;}
+#history .tab-content {padding: 0;margin-bottom: 0;border: none;box-shadow: none;}
 
 /* Wiki */
 .jstElements { margin:0 0 2px 0; }
@@ -440,7 +440,7 @@ tr.issue td.done_ratio { width:80px; }
 tr.issue:hover table.progress td.closed { background-color:#73c448; } /* fix needed because of our additions */
 
 /* reduce sidebar */
-#sidebar, * html #sidebar { -moz-box-sizing:border-box; box-sizing:border-box; width:15%; padding-left:20px; }
+#sidebar, * html #sidebar { -moz-box-sizing:border-box; box-sizing:border-box; width:15%; padding-left:20px; background: transparent; border-left: none;}
 #content, * html #content { -moz-box-sizing:border-box; box-sizing:border-box; width:85%; }
 
 /* print styles */
