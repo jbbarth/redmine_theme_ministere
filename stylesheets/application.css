@@ -43,6 +43,8 @@ div.flash { margin:6px 0 16px; }
 /* Boxes */
 div.box ul { padding-left:2em; }
 
+.box { background-color: #f6f6f6; }
+
 /* Headers */
 h1, h2, h3, h4 { font-family:"Lucida Grande",arial,sans-serif; }
 h1 { font-size:23px; font-weight:normal; margin:0pt 0pt 0pt 0.25em; padding:0pt 0pt 10px; text-align:left; }
