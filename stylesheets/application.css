@@ -332,7 +332,16 @@ table.list th .filter { margin:3px 0 2px; padding:1px 3px; width:100%; max-width
 table.list th .filter:focus { outline:none; }
 
 /* Forms */
-.tabular label { line-height:2em; }
+.tabular label {
+  line-height: 2em;
+  /* width of left column */
+  margin-left: -200px;
+  /* width of labels. Should be smaller than left column to create some right margin */
+  width: 195px;
+}
+.tabular p {
+  padding-left: 200px; /* width of left column containing the label elements */
+}
 
 form#issue-form input[type='submit'] {
   background-color: #229e43;
