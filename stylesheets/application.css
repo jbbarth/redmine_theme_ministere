@@ -57,6 +57,7 @@ h2 { color:#333; }
 .breadcrumb { background-color:#edf3fe; padding:2px 6px; margin:-6px -10px !important; }
 h3, h4 { font-weight:normal; }
 .journals h4.journal-header { background-color: transparent; }
+.avatar { vertical-align: unset; }
 
 /* Wiki / textile */
 div.wiki { line-height:1.4em; }
@@ -371,7 +372,7 @@ div.journal div.wiki { margin-left: 6px; }
 div.journal { margin:5px 0 3px; padding:6px; }
 div.journal.has-notes { background:#ffffdd; border:1px solid #d7d7d7; }
 div.journal:not(.has-notes) + div.journal:not(.has-notes) { border-top:1px solid #e9e9e9; margin-top:0; padding-top:10px; }
-div.journal h4 { color:#444; font-size:12px; margin-top:0; margin-left:6px; margin-bottom:4px; padding-right:3px; }
+div.journal h4 { color:#444; font-size:12px; margin-top:0; margin-bottom:4px; padding-right:3px; }
 div.journal h4 .journal-link { color:#777; }
 div.journal h4 div { font-style:normal; }
 div.issue table.attributes>tbody>tr>th { min-width:70px; color:#666; }
