@@ -553,3 +553,80 @@ tr.issue:hover table.progress td.closed { background-color:#73c448; } /* fix nee
     display: none;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  div.wiki pre {
+    background-color: #161b22;
+    border-color: #30363d;
+    color: #c9d1d9;
+  }
+  div.wiki *:not(pre)>code, div.wiki>code {
+    background: rgba(110, 118, 129, 0.2);
+  }
+  .syntaxhl, .syntaxhl .w {
+    color: #c9d1d9;
+    background-color: #161b22;
+  }
+  .syntaxhl .k, .syntaxhl .kd, .syntaxhl .kn, .syntaxhl .kp, .syntaxhl .kr, .syntaxhl .kt, .syntaxhl .kv {
+    color: #ff7b72;
+  }
+  .syntaxhl .gr {
+    color: #f0f6fc;
+  }
+  .syntaxhl .gd {
+    color: #ffdcd7;
+    background-color: #67060c;
+  }
+  .syntaxhl .nb, .syntaxhl .nc, .syntaxhl .no, .syntaxhl .nn {
+    color: #ffa657;
+  }
+  .syntaxhl .sr, .syntaxhl .na, .syntaxhl .nt {
+    color: #7ee787;
+  }
+  .syntaxhl .gi {
+    color: #aff5b4;
+    background-color: #033a16;
+  }
+  .syntaxhl .ges {
+    font-weight: bold;
+    font-style: italic;
+  }
+  .syntaxhl .kc,
+  .syntaxhl .l, .syntaxhl .ld, .syntaxhl .m, .syntaxhl .mb, .syntaxhl .mf, .syntaxhl .mh, .syntaxhl .mi, .syntaxhl .il, .syntaxhl .mo, .syntaxhl .mx,
+  .syntaxhl .sb, .syntaxhl .bp, .syntaxhl .ne, .syntaxhl .nl, .syntaxhl .py,
+  .syntaxhl .nv, .syntaxhl .vc, .syntaxhl .vg, .syntaxhl .vi, .syntaxhl .vm,
+  .syntaxhl .o, .syntaxhl .ow {
+    color: #79c0ff;
+  }
+  .syntaxhl .gh, .syntaxhl .gu {
+    color: #1f6feb;
+    font-weight: bold;
+  }
+  .syntaxhl .s, .syntaxhl .sa, .syntaxhl .sc, .syntaxhl .dl, .syntaxhl .sd, .syntaxhl .s2, .syntaxhl .se, .syntaxhl .sh, .syntaxhl .sx, .syntaxhl .s1, .syntaxhl .ss,
+  .syntaxhl .hll, .syntaxhl .si, .syntaxhl .sr {
+    background-color: transparent;
+    color: #a5d6ff;
+  }
+  .syntaxhl .nd, .syntaxhl .nf, .syntaxhl .fm {
+    color: #d2a8ff;
+  }
+  .syntaxhl .err {
+    color: #f0f6fc;
+    background-color: #8e1519;
+  }
+  .syntaxhl .c, .syntaxhl .ch, .syntaxhl .cd, .syntaxhl .cm, .syntaxhl .cp, .syntaxhl .cpf, .syntaxhl .c1, .syntaxhl .cs,
+  .syntaxhl .gl, .syntaxhl .gt {
+    color: #b0bec5;
+  }
+  .syntaxhl .ni, .syntaxhl .si {
+    color: #c9d1d9;
+  }
+  .syntaxhl .ge {
+    color: #c9d1d9;
+    font-style: italic;
+  }
+  .syntaxhl .gs {
+    color: #c9d1d9;
+    font-weight: bold;
+  }
+}
