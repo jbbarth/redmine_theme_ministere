@@ -287,6 +287,13 @@ p > code, li > code { color:#222; background-color:#fafafa; padding:1px 2px; bor
 @media screen and (min-width: 1920px) and (max-width: 2559px) {#sidebar{width: 300px;}}
 @media screen and (min-width: 2560px) {#sidebar{width: 320px;}}
 
+/* Sprite icons inside links/buttons follow the core blue/red convention even
+   when the wrapper lacks the .icon/.icon-only class (common in plugins). */
+a .icon-svg, button .icon-svg { stroke: var(--oc-blue-9); }
+a:hover .icon-svg, button:hover .icon-svg { stroke: var(--oc-red-9); }
+a .icon-svg-filled, button .icon-svg-filled { fill: var(--oc-blue-9); stroke: none; }
+a:hover .icon-svg-filled, button:hover .icon-svg-filled { fill: var(--oc-red-9); stroke: none; }
+
 /* Modals */
 div.modal { border:2px solid #73c448; padding:0; }
 div.modal h3.title { background-color:#73c448; padding:4px 10px; border-top-left-radius:1px; border-top-right-radius:1px; }
