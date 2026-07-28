@@ -268,6 +268,7 @@ p > code, li > code { color:#222; background-color:#fafafa; padding:1px 2px; bor
 /* Sidebar */
 #sidebar h3 { display: block; background-color: #edf3fe; border-bottom: 1px solid #ccc; color: #444;
               font-size: 13px; margin: 10px -8px 5px -8px; padding:4px 8px; font-weight: bold; text-shadow:1px 1px 2px #fff; }
+#sidebar .contextual { line-height: 1.4em; margin-block: 3px 5px; }
 #sidebar #watchers { margin-top:10px; }
 #sidebar h3:first-child, #sidebar div:first-child+h3 { margin-top:0; }
 #sidebar h4 { margin:4px 0 2px 0; font-size:12px; font-weight:bold; color:#555; text-shadow:1px 1px 2px #fff; }
