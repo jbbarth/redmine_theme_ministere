@@ -6,7 +6,7 @@
 
 @import url(../../../stylesheets/application.css);
 
-body, #wrapper { color:#333; background-color:#eeeeee; font-family:"Lucida Grande", verdana, arial, helvetica, sans-serif; }
+body, #wrapper { color:#333; background-color:var(--oc-gray-0); font-family:"Lucida Grande", verdana, arial, helvetica, sans-serif; }
 
 a:hover { text-decoration:underline; }
 a:hover, a:active { color:#2A5685; }
@@ -27,7 +27,7 @@ nav.top-menu { padding-block:2px; min-block-size:26px; }
 #top-menu .top-menu__links a:visited { color:#fff; }
 #top-menu .top-menu__links a:hover { color:#fff; background-color:#20ad46; text-decoration:none; }
 #top-menu .top-menu__links svg.icon-svg { stroke:#fff; }
-#main { background-color:#eeeeee; margin:8px 8px 0px 8px; }
+#main { background-color:transparent; margin:8px 8px 0px 8px; }
 #content, #main.nosidebar #content {
   -moz-box-shadow:3px 3px 4px #ccc; -webkit-box-shadow:3px 3px 4px #ccc; box-shadow:3px 3px 4px #ccc;
   background:#fff; border-right:1px solid #ccc; border-bottom:1px solid #ccc; overflow:auto;
