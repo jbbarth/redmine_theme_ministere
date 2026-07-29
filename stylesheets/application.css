@@ -325,6 +325,7 @@ div.modal h3.title { background-color:#73c448; padding:4px 10px; border-top-left
 }
 #main-menu li a.new-object { background-color: #229e43;}
 #main-menu .menu-children li a:hover {color: #fff; background-color: #229e43;}
+#main-menu .menu-children li a { padding-block: 8px; }
 
 /* Quick-search box */
 #quick-search { color:#73c448; }
