@@ -1,10 +1,18 @@
 /* Adapted from Basecamp stylesheet by Peter Theill, Commanigy - http://commanigy.com */
 
-/* COLOR THEMES: */
-/* green version: top_menu=229e43, header=73c448, tab_inactive=229e43, tab_hover=20ad46 */
-/* red version: top_menu=3B4B56, header=9B0827, tab_inactive=750A15, tab_hover=620010 */
-
 @import url(../../../stylesheets/application.css);
+
+:root {
+  --min-green: #229e43;        /* top menu, project tabs, selected sidebar item */
+  --min-green-light: #73c448;  /* header, modals, progress bars */
+  --min-green-hover: #20ad46;
+  --min-radius: 6px;
+  --min-shadow: 0 1px 2px rgba(16, 24, 40, .08), 0 4px 14px rgba(16, 24, 40, .10);
+  --min-transition: background-color .15s ease, color .15s ease, box-shadow .15s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --min-transition: none; }
+}
 
 body, #wrapper { color:#333; background-color:var(--oc-gray-0); font-family:"Lucida Grande", verdana, arial, helvetica, sans-serif; }
 
@@ -13,14 +21,14 @@ a:hover, a:active { color:#2A5685; }
 ul, ol { line-height:1.4em; margin-top:0.4em; margin-bottom:1em; } /*TODO: see if it breaks something */
 
 #header, #top-menu { margin:0; }
-#header { background:/*#79B51C*/#73c448 url(../images/logo.png) no-repeat 10px 50%;padding-left:108px; min-height:70px;background-size: 91px auto; }
+#header { background:var(--min-green-light) url(../images/logo.png) no-repeat 10px 50%;padding-left:108px; min-height:70px;background-size: 91px auto; }
 nav.top-menu + #header { box-sizing:border-box; }
 nav.top-menu + #header h1 { display:block; min-block-size:0; margin-block-start:10px; }
 #header h1 { margin:0; }
-#header h1, #header h1 a { color:#fff; text-shadow:1px 1px 2px #bbb; }
+#header h1, #header h1 a { color:#fff; }
 #header #quick-search { margin:4px; }
 #header h1 .breadcrumbs {  margin-top: -2px;  }
-#top-menu { background-color:#229e43; }
+#top-menu { background-color:var(--min-green); }
 nav.top-menu { padding-block:0; min-block-size:30px; }
 nav.top-menu .general-menu { display:flex; align-self:stretch; margin-inline-start:-6px; }
 nav.top-menu .general-menu .top-menu__links,
@@ -34,8 +42,8 @@ nav.top-menu .general-menu .top-menu__links a { display:flex; align-items:center
 #top-menu .top-menu__links svg.icon-svg { stroke:#fff; }
 #main { background-color:transparent; margin:8px 8px 0px 8px; }
 #content, #main.nosidebar #content {
-  -moz-box-shadow:3px 3px 4px #ccc; -webkit-box-shadow:3px 3px 4px #ccc; box-shadow:3px 3px 4px #ccc;
-  background:#fff; border-right:1px solid #ccc; border-bottom:1px solid #ccc; overflow:auto;
+  background:#fff; border:0; border-radius:var(--min-radius);
+  box-shadow:var(--min-shadow); overflow:auto;
   padding:6px 10px;
 }
 #footer { background-color:transparent; border:0px; clear:left; color:#666; font-size:9px; margin:4px 0 20px 20px; padding-bottom:15px; text-align:left; }
@@ -61,7 +69,7 @@ h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 { border-bottom:0px;}
 
 h2 { color:#333; }
 .wiki h2, .wiki h1 { background-color:#edf3fe; margin:-6px -10px 10px; padding:10px 15px;  }
-.wiki h1 { font-family:"Trebuchet MS",Verdana,sans-serif; font-weight:bold; color:#000 !important; font-size:18px; text-shadow:1px 1px 2px #fff; }
+.wiki h1 { font-family:"Trebuchet MS",Verdana,sans-serif; font-weight:bold; color:#000 !important; font-size:18px; }
 .wiki h2 { background:none; font-size:16px; }
 .breadcrumb { background-color:#edf3fe; padding:2px 6px; margin:-6px -10px 10px !important; }
 .breadcrumb + .wiki-page > h1:first-child,
@@ -160,7 +168,6 @@ div.wiki ul.toc a { color:#666; }
 .wiki .actu-footer h1{
   color: #FFFFFF !important;
   background-color: #293133;
-  text-shadow: none;
 }
 .wiki .actu-footer h2{
   color: #FFFFFF !important;
@@ -219,9 +226,6 @@ div.wiki ul.toc a { color:#666; }
   letter-spacing: -0.15em;
   margin-left: -0.15em;
 }
-.wiki .hexagon .second {
-
-}
 .wiki .hexagon-before {
   width: 0;
   height: 0;
@@ -274,16 +278,16 @@ p > code, li > code { color:#222; background-color:#fafafa; padding:1px 2px; bor
 
 /* Sidebar */
 #sidebar h3 { display: block; background-color: #edf3fe; border-bottom: 1px solid #ccc; color: #444;
-              font-size: 13px; margin: 10px -8px 5px -8px; padding:4px 8px; font-weight: bold; text-shadow:1px 1px 2px #fff; }
+              font-size: 13px; margin: 10px -8px 5px -8px; padding:4px 8px; font-weight: bold; }
 #sidebar .contextual { line-height: 1.4em; margin-block: 3px 5px; }
 #sidebar #watchers { margin-top:10px; }
 #sidebar h3:first-child, #sidebar div:first-child+h3 { margin-top:0; }
-#sidebar h4 { margin:4px 0 2px 0; font-size:12px; font-weight:bold; color:#555; text-shadow:1px 1px 2px #fff; }
+#sidebar h4 { margin:4px 0 2px 0; font-size:12px; font-weight:bold; color:#555; }
 #sidebar p { margin:3px 2px; }
 #sidebar .subsection { padding-left:10px; }
 #admin-menu a {display:inline-block;line-height:1.4em;padding-top: 2px;padding-bottom: 3px;}
 #sidebar #admin-menu a.selected { background-color:#5a6695; background-position:6px center; display:inline-block; padding:2px 7px 2px 7px; margin-left:-8px; margin-right:20px; color:#fff; border-radius:4px; box-shadow: inset 0 0 1px #bbbbf5; line-height:19px; }
-#sidebar a.selected { background-color:#229e43; padding:1px 6px 2px 5px; margin-left:-5px; color:#fff; border-radius:4px; box-shadow: inset 0 0 1px #bbbbf5; }
+#sidebar a.selected { background-color:var(--min-green); padding:1px 6px 2px 5px; margin-left:-5px; color:#fff; border-radius:4px; box-shadow: inset 0 0 1px #bbbbf5; }
 #sidebar a.selected svg.icon-svg, #admin-menu a.selected svg.icon-svg { stroke:#fff !important; }
 #sidebar select#user_id {max-width: 100%;}
 
@@ -303,43 +307,46 @@ a .icon-svg-filled, button .icon-svg-filled { fill: var(--oc-blue-9); stroke: no
 a:hover .icon-svg-filled, button:hover .icon-svg-filled { fill: var(--oc-red-9); stroke: none; }
 
 /* Modals */
-div.modal { border:2px solid #73c448; padding:0; }
-div.modal h3.title { background-color:#73c448; padding:4px 10px; border-top-left-radius:1px; border-top-right-radius:1px; }
+div.modal { border:2px solid var(--min-green-light); padding:0; }
+div.modal h3.title { background-color:var(--min-green-light); padding:4px 10px; border-top-left-radius:1px; border-top-right-radius:1px; }
 .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { -moz-border-radius-bottomright: 0; -webkit-border-bottom-right-radius: 0; -khtml-border-bottom-right-radius: 0; border-bottom-right-radius: 0; }
 .ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { -moz-border-radius-bottomleft: 0; -webkit-border-bottom-left-radius: 0; -khtml-border-bottom-left-radius: 0; border-bottom-left-radius: 0; }
 .ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { -moz-border-radius-topright: 0; -webkit-border-top-right-radius: 0; -khtml-border-top-right-radius: 0; border-top-right-radius: 0; }
 .ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { -moz-border-radius-topleft: 0; -webkit-border-top-left-radius: 0; -khtml-border-top-left-radius: 0; border-top-left-radius: 0; }
-.ui-widget-header, div.ui-widget-header { border: 1px solid #73c448; background: #73c448; color: white; }
+.ui-widget-header, div.ui-widget-header { border: 1px solid var(--min-green-light); background: var(--min-green-light); color: white; }
 
 /* Menu */
 #main-menu { left:108px; padding:0; margin:0; background:transparent; }
-#main-menu li a { color:#fff; background-color:#229e43; font-weight:normal; margin:0 3px 0 0; padding-bottom:8px; border-top-left-radius:3px; border-top-right-radius:3px; }
+#main-menu li a { color:#fff; background-color:var(--min-green); font-weight:normal; margin:0 3px 0 0; padding-bottom:8px; border-top-left-radius:3px; border-top-right-radius:3px; }
 #main-menu li a.settings {background-color:transparent;}
-#main-menu li a:hover { color:#fff; background:#20ad46; text-decoration:none; }
+#main-menu li a:hover { color:#fff; background:var(--min-green-hover); text-decoration:none; }
 #main-menu li a.selected, #main-menu li a.selected:hover {
-  /* following lines taken from basecamphq directly. Thanks 37signals!! */
-  background:#eeeeee;
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#eeeeee'); /* IE */
-  background:-webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#eeeeee)); /* webkit */
-  background:-moz-linear-gradient(top,  #fdfdfd,  #eeeeee); /* firefox 3.6+ */
+  background:var(--oc-gray-0);
   color:#222222; font-weight:bold; margin:0 3px 0 0; padding-bottom:8px; text-decoration:none;
   box-shadow:none;
 }
 #main-menu .menu-children {
-  border-right: 1px solid #229e43;
-  border-bottom: 1px solid #229e43;
-  border-left: 1px solid #229e43;
+  border-right: 1px solid var(--min-green);
+  border-bottom: 1px solid var(--min-green);
+  border-left: 1px solid var(--min-green);
 }
-#main-menu li a.new-object { background-color: #229e43;}
-#main-menu .menu-children li a:hover {color: #fff; background-color: #229e43;}
+#main-menu li a.new-object { background-color: var(--min-green);}
+#main-menu .menu-children li a:hover {color: #fff; background-color: var(--min-green);}
 #main-menu .menu-children li a { padding-block: 8px; }
 
+/* Soften state changes instead of snapping between them */
+#main-menu li a,
+#top-menu .top-menu__links a,
+#sidebar a,
+#project-jump .drdn-items > a,
+#footer a { transition: var(--min-transition); }
+
 /* Quick-search box */
-#quick-search { color:#73c448; }
+#quick-search { color:var(--min-green-light); }
 #quick-search label { display:none; }
 #quick-search input#q { border:1px solid #aaa; padding:3px 20px 3px 3px; border-radius:3px; box-sizing:border-box;
                         background:#fff url(../images/search.png) no-repeat right center; }
-#project-jump .drdn-items > a:hover { background-color: #229e43; }
+#project-jump .drdn-items > a:hover { background-color: var(--min-green); }
 
 /* Tabs / Settings */
 fieldset legend { font-weight:bold; }
@@ -360,6 +367,13 @@ table.list th { vertical-align:top; background-color:#E8E8E8; border-bottom:1px 
 table.list tbody tr:hover { background-color:#edf3fe; }
 .odd, .odd+.even-odd-linked { background-color:#fff; }
 .even, .even+.even-odd-linked { background-color:#f6f7f8; }
+/* Core drops row striping inside .box, because its even rows would match the core
+   box background. This theme gives .box a different color, so restore the striping.
+   Same specificity as the core hover rules, so re-declare those too. */
+.box table.list:not(.odd-even) tbody tr:nth-child(even),
+.box .even, .box .even+.even-odd-linked { background-color:var(--oc-gray-1); }
+.box table.list:not(.odd-even) tbody tr:nth-child(even):hover,
+.box .even:hover { background-color:var(--oc-yellow-0); }
 table.list th .filter { margin:3px 0 2px; padding:1px 3px; width:100%; max-width:240px; box-sizing:border-box; border-radius:2px; border:1px solid #ccc; height:19px; color:#555; }
 table.list th .filter:focus { outline:none; }
 
@@ -376,11 +390,11 @@ table.list th .filter:focus { outline:none; }
 }
 
 form#issue-form input[type='submit'] {
-  background-color: #229e43;
+  background-color: var(--min-green);
   color: #f9ffef;
 }
 form#issue-form input[type='submit']:hover, form#issue-form input[type='submit']:focus {
-  background-color: #20ad46;
+  background-color: var(--min-green-hover);
   color:#fff;
 }
 
@@ -479,9 +493,9 @@ tr.priority-1:hover .project-badge { border-color:#ffffff; }
 
 /* progress bars */
 table.progress td { height:10px; }
-table.progress td.closed { background-color:#73c448; }
+table.progress td.closed { background-color:var(--min-green-light); }
 tr.issue td.done_ratio { width:80px; }
-tr.issue:hover table.progress td.closed { background-color:#73c448; } /* fix needed because of our additions */
+tr.issue:hover table.progress td.closed { background-color:var(--min-green-light); } /* fix needed because of our additions */
 
 /* reduce sidebar */
 #sidebar { background:transparent; border-inline-start:none; }
@@ -535,7 +549,7 @@ tr.issue:hover table.progress td.closed { background-color:#73c448; } /* fix nee
 @media all and (max-width: 899px)
 {
   .theme-Ministere #header{
-    background-color: #73c448; /* Force header background color */
+    background-color: var(--min-green-light); /* Force header background color */
   }
 
   /* styles for combobox within quick-search (#project_quick_jump_box) */
