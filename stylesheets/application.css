@@ -607,7 +607,8 @@ tr.issue:hover table.progress td.closed { background-color:var(--min-green-light
   div.wiki *:not(pre)>code, div.wiki>code {
     background: rgba(110, 118, 129, 0.2);
   }
-  .syntaxhl, .syntaxhl .w {
+  /* div.wiki pre .syntaxhl matches core's specificity on wiki code blocks */
+  .syntaxhl, .syntaxhl .w, div.wiki pre .syntaxhl {
     color: #c9d1d9;
     background-color: #161b22;
   }
