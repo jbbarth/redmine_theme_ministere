@@ -607,6 +607,12 @@ tr.issue:hover table.progress td.closed { background-color:var(--min-green-light
   div.wiki *:not(pre)>code, div.wiki>code {
     background: rgba(110, 118, 129, 0.2);
   }
+  div.pre-wrapper a.copy-pre-content-link {
+    background: #21262d;
+    border-color: #30363d;
+  }
+  div.pre-wrapper a.copy-pre-content-link .icon-svg { stroke: #c9d1d9; }
+  div.pre-wrapper a.copy-pre-content-link:hover .icon-svg { stroke: #f0f6fc; }
   /* div.wiki pre .syntaxhl matches core's specificity on wiki code blocks */
   .syntaxhl, .syntaxhl .w, div.wiki pre .syntaxhl {
     color: #c9d1d9;
